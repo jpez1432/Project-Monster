@@ -1,0 +1,5414 @@
+# depslib dependency file v1.0
+1585768045 source:d:\projects_2\project monster\project monster\sources\common.cpp
+	"Common.hpp"
+
+1566616912 d:\projects_2\project monster\project monster\sources\common.hpp
+	<windows.h>
+	<string>
+	<vector>
+	<glm.hpp>
+
+1501561540 d:\projects_2\dependencies\glew-2.1.0\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1536015770 d:\projects_2\dependencies\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	"detail/setup.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1572713117 d:\projects_2\dependencies\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+	<CL/sycl.hpp>
+	<limits>
+	<cstdint>
+	<type_traits>
+
+1578235456 d:\projects_2\dependencies\glm\glm\simd\platform.h
+	<cuda.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+	"neon.h"
+
+1567842339 d:\projects_2\dependencies\glm\glm\fwd.hpp
+	"detail/qualifier.hpp"
+
+1567850779 d:\projects_2\dependencies\glm\glm\detail\qualifier.hpp
+	"setup.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\vec2.hpp
+	"./ext/vector_bool2.hpp"
+	"./ext/vector_bool2_precision.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float2_precision.hpp"
+	"./ext/vector_double2.hpp"
+	"./ext/vector_double2_precision.hpp"
+	"./ext/vector_int2.hpp"
+	"./ext/vector_int2_precision.hpp"
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_uint2_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_bool2.hpp
+	"../detail/type_vec2.hpp"
+
+1539733378 d:\projects_2\dependencies\glm\glm\detail\type_vec2.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\_swizzle.hpp
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\_swizzle_func.hpp
+
+1539733378 d:\projects_2\dependencies\glm\glm\detail\type_vec2.inl
+	"./compute_vector_relational.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\compute_vector_relational.hpp
+	"setup.hpp"
+	<limits>
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_bool2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_float2.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_float2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_double2.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_double2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_int2.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_int2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_uint2.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_uint2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\vec3.hpp
+	"./ext/vector_bool3.hpp"
+	"./ext/vector_bool3_precision.hpp"
+	"./ext/vector_float3.hpp"
+	"./ext/vector_float3_precision.hpp"
+	"./ext/vector_double3.hpp"
+	"./ext/vector_double3_precision.hpp"
+	"./ext/vector_int3.hpp"
+	"./ext/vector_int3_precision.hpp"
+	"./ext/vector_uint3.hpp"
+	"./ext/vector_uint3_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_bool3.hpp
+	"../detail/type_vec3.hpp"
+
+1567842339 d:\projects_2\dependencies\glm\glm\detail\type_vec3.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1539733378 d:\projects_2\dependencies\glm\glm\detail\type_vec3.inl
+	"compute_vector_relational.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_bool3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_float3.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_float3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_double3.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_double3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_int3.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_int3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_uint3.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_uint3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\vec4.hpp
+	"./ext/vector_bool4.hpp"
+	"./ext/vector_bool4_precision.hpp"
+	"./ext/vector_float4.hpp"
+	"./ext/vector_float4_precision.hpp"
+	"./ext/vector_double4.hpp"
+	"./ext/vector_double4_precision.hpp"
+	"./ext/vector_int4.hpp"
+	"./ext/vector_int4_precision.hpp"
+	"./ext/vector_uint4.hpp"
+	"./ext/vector_uint4_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_bool4.hpp
+	"../detail/type_vec4.hpp"
+
+1567842339 d:\projects_2\dependencies\glm\glm\detail\type_vec4.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1539733378 d:\projects_2\dependencies\glm\glm\detail\type_vec4.inl
+	"compute_vector_relational.hpp"
+	"type_vec4_simd.inl"
+
+1578235456 d:\projects_2\dependencies\glm\glm\detail\type_vec4_simd.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_bool4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_float4.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_float4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_double4.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_double4_precision.hpp
+	"../detail/setup.hpp"
+	"../detail/type_vec4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_int4.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_int4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_uint4.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_uint4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\mat2x2.hpp
+	"./ext/matrix_double2x2.hpp"
+	"./ext/matrix_double2x2_precision.hpp"
+	"./ext/matrix_float2x2.hpp"
+	"./ext/matrix_float2x2_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat2x2.hpp
+	"type_vec2.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat2x2.inl
+	"../matrix.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\matrix.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"detail/func_matrix.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\mat2x3.hpp
+	"./ext/matrix_double2x3.hpp"
+	"./ext/matrix_double2x3_precision.hpp"
+	"./ext/matrix_float2x3.hpp"
+	"./ext/matrix_float2x3_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat2x3.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat2x3.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\mat2x4.hpp
+	"./ext/matrix_double2x4.hpp"
+	"./ext/matrix_double2x4_precision.hpp"
+	"./ext/matrix_float2x4.hpp"
+	"./ext/matrix_float2x4_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat2x4.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat2x4.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\mat3x2.hpp
+	"./ext/matrix_double3x2.hpp"
+	"./ext/matrix_double3x2_precision.hpp"
+	"./ext/matrix_float3x2.hpp"
+	"./ext/matrix_float3x2_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat3x2.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat3x2.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\mat3x3.hpp
+	"./ext/matrix_double3x3.hpp"
+	"./ext/matrix_double3x3_precision.hpp"
+	"./ext/matrix_float3x3.hpp"
+	"./ext/matrix_float3x3_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat3x3.hpp
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat3x3.inl
+	"../matrix.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\mat3x4.hpp
+	"./ext/matrix_double3x4.hpp"
+	"./ext/matrix_double3x4_precision.hpp"
+	"./ext/matrix_float3x4.hpp"
+	"./ext/matrix_float3x4_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat3x4.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat3x4.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\mat4x2.hpp
+	"./ext/matrix_double4x2.hpp"
+	"./ext/matrix_double4x2_precision.hpp"
+	"./ext/matrix_float4x2.hpp"
+	"./ext/matrix_float4x2_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat4x2.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat4x2.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double4x2_precision.hpp
+	"../detail/type_mat4x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float4x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\mat4x3.hpp
+	"./ext/matrix_double4x3.hpp"
+	"./ext/matrix_double4x3_precision.hpp"
+	"./ext/matrix_float4x3.hpp"
+	"./ext/matrix_float4x3_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat4x3.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1567842339 d:\projects_2\dependencies\glm\glm\detail\type_mat4x3.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\mat4x4.hpp
+	"./ext/matrix_double4x4.hpp"
+	"./ext/matrix_double4x4_precision.hpp"
+	"./ext/matrix_float4x4.hpp"
+	"./ext/matrix_float4x4_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat4x4.hpp
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat4x4.inl
+	"../matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_mat4x4_simd.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\geometric.hpp
+	"detail/type_vec3.hpp"
+	"detail/func_geometric.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_geometric.inl
+	"../exponential.hpp"
+	"../common.hpp"
+	"func_geometric_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\exponential.hpp
+	"detail/type_vec1.hpp"
+	"detail/type_vec2.hpp"
+	"detail/type_vec3.hpp"
+	"detail/type_vec4.hpp"
+	<cmath>
+	"detail/func_exponential.inl"
+
+1539733378 d:\projects_2\dependencies\glm\glm\detail\type_vec1.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1539733378 d:\projects_2\dependencies\glm\glm\detail\type_vec1.inl
+	"./compute_vector_relational.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_exponential.inl
+	"../vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\vector_relational.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"detail/func_vector_relational.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_vector_relational.inl
+	"func_vector_relational_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_vector_relational_simd.inl
+
+1567842339 d:\projects_2\dependencies\glm\glm\detail\_vectorize.hpp
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1536013586 d:\projects_2\dependencies\glm\glm\simd\exponential.h
+	"platform.h"
+
+1567842339 d:\projects_2\dependencies\glm\glm\common.hpp
+	"detail/qualifier.hpp"
+	"detail/_fixes.hpp"
+	"detail/func_common.inl"
+
+1585004180 d:\projects_2\dependencies\glm\glm\detail\func_common.inl
+	"../vector_relational.hpp"
+	"compute_common.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\compute_common.hpp
+	"setup.hpp"
+	<limits>
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1567842339 d:\projects_2\dependencies\glm\glm\simd\common.h
+	"platform.h"
+
+1578235456 d:\projects_2\dependencies\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1525776867 d:\projects_2\dependencies\glm\glm\simd\geometric.h
+	"common.h"
+
+1578235456 d:\projects_2\dependencies\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"../geometric.hpp"
+	"../simd/matrix.h"
+	<cstring>
+
+1525776867 d:\projects_2\dependencies\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_double2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_float2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\trigonometric.hpp
+	"detail/setup.hpp"
+	"detail/qualifier.hpp"
+	"detail/func_trigonometric.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483569763 d:\projects_2\dependencies\glm\glm\detail\func_trigonometric_simd.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\packing.hpp
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float4.hpp"
+	"detail/func_packing.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_packing.inl
+	"../common.hpp"
+	"type_half.hpp"
+	"func_packing_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1567842339 d:\projects_2\dependencies\glm\glm\detail\type_half.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_packing_simd.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\integer.hpp
+	"detail/qualifier.hpp"
+	"common.hpp"
+	"vector_relational.hpp"
+	"detail/func_integer.inl"
+
+1567864054 d:\projects_2\dependencies\glm\glm\detail\func_integer.inl
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1525776867 d:\projects_2\dependencies\glm\glm\simd\integer.h
+
+1586852564 source:d:\projects_2\project monster\project monster\sources\config.cpp
+	"Config.hpp"
+
+1585768225 d:\projects_2\project monster\project monster\sources\config.hpp
+	<Glm.hpp>
+	"Logger.hpp"
+
+1549695044 d:\projects_2\project monster\project monster\sources\logger.hpp
+	<windows.h>
+	<string>
+	<iostream>
+	<fstream>
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+
+1471549960 d:\projects_2\dependencies\glfw-3.2.1.bin.win32\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1566617514 source:d:\projects_2\project monster\project monster\sources\engine\camera.cpp
+	"Camera.hpp"
+
+1566617378 d:\projects_2\project monster\project monster\sources\engine\camera.hpp
+	<time.h>
+	<string>
+	<glm.hpp>
+	<gtc/type_ptr.hpp>
+	<gtx/quaternion.hpp>
+	"../Physics/Vehicle.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../gtc/vec1.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\quaternion.hpp
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_common.hpp"
+	"../ext/quaternion_float.hpp"
+	"../ext/quaternion_float_precision.hpp"
+	"../ext/quaternion_double.hpp"
+	"../ext/quaternion_double_precision.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../ext/quaternion_trigonometric.hpp"
+	"../ext/quaternion_transform.hpp"
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"quaternion.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\constants.hpp
+	"../ext/scalar_constants.hpp"
+	"constants.inl"
+
+1572693951 d:\projects_2\dependencies\glm\glm\ext\scalar_constants.hpp
+	"../detail/setup.hpp"
+	"scalar_constants.inl"
+
+1572693951 d:\projects_2\dependencies\glm\glm\ext\scalar_constants.inl
+	<limits>
+
+1572693951 d:\projects_2\dependencies\glm\glm\gtc\constants.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../ext/matrix_projection.hpp"
+	"../ext/matrix_clip_space.hpp"
+	"../ext/matrix_transform.hpp"
+	"matrix_transform.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_projection.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_projection.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_projection.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_clip_space.hpp
+	"../ext/scalar_constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"matrix_clip_space.inl"
+
+1578237923 d:\projects_2\dependencies\glm\glm\ext\matrix_clip_space.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\matrix_transform.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_transform.inl"
+
+1567842339 d:\projects_2\dependencies\glm\glm\ext\matrix_transform.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1567872587 d:\projects_2\dependencies\glm\glm\ext\vector_relational.hpp
+	"../detail/qualifier.hpp"
+	"vector_relational.inl"
+
+1539733379 d:\projects_2\dependencies\glm\glm\ext\vector_relational.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/type_float.hpp"
+
+1539733378 d:\projects_2\dependencies\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_common.hpp
+	"../ext/scalar_constants.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_common.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_geometric.hpp
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"../ext/vector_relational.hpp"
+	"quaternion_geometric.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_geometric.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_common.inl
+	"quaternion_common_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_common_simd.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_float.hpp
+	"../detail/type_quat.hpp"
+
+1578259146 d:\projects_2\dependencies\glm\glm\detail\type_quat.hpp
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"type_quat.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_relational.hpp
+	"../vector_relational.hpp"
+	"quaternion_relational.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_relational.inl
+
+1578258314 d:\projects_2\dependencies\glm\glm\detail\type_quat.inl
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"../ext/quaternion_geometric.hpp"
+	<limits>
+	"type_quat_simd.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\detail\type_quat_simd.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_float_precision.hpp
+	"../detail/type_quat.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_double.hpp
+	"../detail/type_quat.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_double_precision.hpp
+	"../detail/type_quat.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_trigonometric.hpp
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"scalar_constants.hpp"
+	"vector_relational.hpp"
+	<limits>
+	"quaternion_trigonometric.inl"
+
+1572693951 d:\projects_2\dependencies\glm\glm\ext\quaternion_trigonometric.inl
+	"scalar_constants.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_transform.hpp
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"quaternion_transform.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_transform.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"epsilon.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1536013586 d:\projects_2\dependencies\glm\glm\gtc\epsilon.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"epsilon.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\epsilon.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\quaternion_simd.inl
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\vec1.hpp
+	"../ext/vector_bool1.hpp"
+	"../ext/vector_bool1_precision.hpp"
+	"../ext/vector_float1.hpp"
+	"../ext/vector_float1_precision.hpp"
+	"../ext/vector_double1.hpp"
+	"../ext/vector_double1_precision.hpp"
+	"../ext/vector_int1.hpp"
+	"../ext/vector_int1_precision.hpp"
+	"../ext/vector_uint1.hpp"
+	"../ext/vector_uint1_precision.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_bool1.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_bool1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_float1.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_float1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1567842339 d:\projects_2\dependencies\glm\glm\ext\vector_double1.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_double1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_int1.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_int1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_uint1.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\vector_uint1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1573050439 d:\projects_2\dependencies\glm\glm\gtx\quaternion.hpp
+	"../glm.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/quaternion.hpp"
+	"../ext/quaternion_exponential.hpp"
+	"../gtx/norm.hpp"
+	"quaternion.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\ext\quaternion_exponential.hpp
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../ext/scalar_constants.hpp"
+	"quaternion_exponential.inl"
+
+1572693951 d:\projects_2\dependencies\glm\glm\ext\quaternion_exponential.inl
+	"scalar_constants.hpp"
+
+1567851401 d:\projects_2\dependencies\glm\glm\gtx\norm.hpp
+	"../geometric.hpp"
+	"../gtx/quaternion.hpp"
+	"../gtx/component_wise.hpp"
+	"norm.inl"
+
+1567851401 d:\projects_2\dependencies\glm\glm\gtx\norm.inl
+	"../detail/qualifier.hpp"
+
+1573050423 d:\projects_2\dependencies\glm\glm\gtx\quaternion.inl
+	<limits>
+	"../gtc/constants.hpp"
+
+1572043780 d:\projects_2\project monster\project monster\sources\physics\vehicle.hpp
+	<Ode/Ode.h>
+	<gtc/constants.hpp>
+	"../Engine/Input.hpp"
+	"../Game/Models.hpp"
+	"../Game/Trucks.hpp"
+	"Server.hpp"
+	"Client.hpp"
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\ode.h
+	<ode/odeconfig.h>
+	<ode/compatibility.h>
+	<ode/common.h>
+	<ode/odeinit.h>
+	<ode/contact.h>
+	<ode/error.h>
+	<ode/memory.h>
+	<ode/odemath.h>
+	<ode/matrix.h>
+	<ode/matrix_coop.h>
+	<ode/timer.h>
+	<ode/rotation.h>
+	<ode/mass.h>
+	<ode/misc.h>
+	<ode/objects.h>
+	<ode/collision_space.h>
+	<ode/collision.h>
+	<ode/threading.h>
+	<ode/threading_impl.h>
+	<ode/cooperative.h>
+	<ode/export-dif.h>
+	<ode/version.h>
+	<ode/odecpp.h>
+	<ode/odecpp_collision.h>
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\odeconfig.h
+	<stddef.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<math.h>
+	<string.h>
+	<float.h>
+	<ode/precision.h>
+	<stdint.h>
+
+1549094547 d:\projects_2\dependencies\ode-0.16\include\ode\precision.h
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\compatibility.h
+
+1549094816 d:\projects_2\dependencies\ode-0.16\include\ode\common.h
+	<ode/odeconfig.h>
+	<ode/error.h>
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\error.h
+	<ode/odeconfig.h>
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\odeinit.h
+	<ode/common.h>
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\contact.h
+	<ode/common.h>
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\memory.h
+	<ode/odeconfig.h>
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\odemath.h
+	<ode/common.h>
+	<ode/odemath_legacy.h>
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\odemath_legacy.h
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\matrix.h
+	<ode/common.h>
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\matrix_coop.h
+	<ode/common.h>
+	<ode/cooperative.h>
+	<ode/threading.h>
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\cooperative.h
+	<ode/common.h>
+	<ode/threading.h>
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\threading.h
+	<ode/odeconfig.h>
+	<time.h>
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\timer.h
+	<ode/odeconfig.h>
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\rotation.h
+	<ode/common.h>
+	<ode/compatibility.h>
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\mass.h
+	<ode/common.h>
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\misc.h
+	<ode/common.h>
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\objects.h
+	<ode/common.h>
+	<ode/mass.h>
+	<ode/contact.h>
+	<ode/threading.h>
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\collision_space.h
+	<ode/common.h>
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\collision.h
+	<ode/common.h>
+	<ode/collision_space.h>
+	<ode/contact.h>
+	"collision_trimesh.h"
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\collision_trimesh.h
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\threading_impl.h
+	<ode/odeconfig.h>
+	<ode/threading.h>
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\export-dif.h
+	<ode/common.h>
+
+1549094547 d:\projects_2\dependencies\ode-0.16\include\ode\version.h
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\odecpp.h
+
+1544389444 d:\projects_2\dependencies\ode-0.16\include\ode\odecpp_collision.h
+
+1573750062 d:\projects_2\project monster\project monster\sources\game\models.hpp
+	<algorithm>
+	"Pods.hpp"
+	"Textures.hpp"
+
+1566889612 d:\projects_2\project monster\project monster\sources\game\pods.hpp
+	"../Common.hpp"
+	<string>
+	<vector>
+	"../Logger.hpp"
+	"../Config.hpp"
+
+1572117249 d:\projects_2\project monster\project monster\sources\game\textures.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	<Soil2/Soil2.h>
+	"Pods.hpp"
+
+1458722020 d:\projects_2\dependencies\soil2\src\soil2\soil2.h
+
+1568131096 d:\projects_2\project monster\project monster\sources\game\trucks.hpp
+	"../Common.hpp"
+	"Pods.hpp"
+	"Models.hpp"
+	"Textures.hpp"
+
+1571787922 d:\projects_2\project monster\project monster\sources\physics\server.hpp
+	<Ode/Ode.h>
+	<list>
+	"../Game/Terrain.hpp"
+	"Generic.hpp"
+	"Vehicle.hpp"
+	"Client.hpp"
+
+1572119169 d:\projects_2\project monster\project monster\sources\game\terrain.hpp
+	<vector>
+	<string>
+	"Pods.hpp"
+
+1560100944 d:\projects_2\project monster\project monster\sources\physics\client.hpp
+	<Ode/Ode.h>
+
+1573633615 source:d:\projects_2\project monster\project monster\sources\engine\frustum.cpp
+	"Frustum.hpp"
+
+1568687354 d:\projects_2\project monster\project monster\sources\engine\frustum.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	<glm.hpp>
+
+1568233450 source:d:\projects_2\project monster\project monster\sources\engine\input.cpp
+	"Input.hpp"
+
+1568233340 d:\projects_2\project monster\project monster\sources\engine\input.hpp
+	<iostream>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1585768407 source:d:\projects_2\project monster\project monster\sources\engine\quadtree.cpp
+	"QuadTree.hpp"
+
+1572124018 d:\projects_2\project monster\project monster\sources\engine\quadtree.hpp
+	"Frustum.hpp"
+	"../Game/Track.hpp"
+	"../Game/Terrain.hpp"
+	"../Game/Textures.hpp"
+
+1573849987 d:\projects_2\project monster\project monster\sources\game\track.hpp
+	"../Common.hpp"
+	"Pods.hpp"
+	"Terrain.hpp"
+	"Textures.hpp"
+	"Boxes.hpp"
+	"Models.hpp"
+	"Weather.hpp"
+
+1566889612 d:\projects_2\project monster\project monster\sources\game\boxes.hpp
+	"Pods.hpp"
+
+1572117656 d:\projects_2\project monster\project monster\sources\game\weather.hpp
+	"Models.hpp"
+
+1586860431 source:d:\projects_2\project monster\project monster\sources\engine\render.cpp
+	"Render.hpp"
+
+1573834737 d:\projects_2\project monster\project monster\sources\engine\render.hpp
+	<gtc/constants.hpp>
+	<gtc/type_ptr.hpp>
+	<gtc/matrix_access.hpp>
+	"../Interface/imgui.h"
+	"../Interface/imgui_impl_glfw.h"
+	"../Interface/imgui_impl_opengl2.h"
+	"Input.hpp"
+	"QuadTree.hpp"
+	"Camera.hpp"
+	"Frustum.hpp"
+	"Timer.hpp"
+	"../Config.hpp"
+	"../Game/Track.hpp"
+	"../Game/Trucks.hpp"
+	"../Physics/Server.hpp"
+	"../Physics/Client.hpp"
+	"../Physics/Generic.hpp"
+	"../Physics/Vehicle.hpp"
+
+1573219814 d:\projects_2\project monster\project monster\sources\interface\imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	<stdint.h>
+	"imgui_user.h"
+
+1573219814 d:\projects_2\project monster\project monster\sources\interface\imconfig.h
+
+1573219814 d:\projects_2\project monster\project monster\sources\interface\imgui_impl_glfw.h
+
+1560518448 d:\projects_2\project monster\project monster\sources\interface\imgui_impl_opengl3.h
+	<GL/Glew.h>
+
+1573666239 d:\projects_2\project monster\project monster\sources\physics\generic.hpp
+	<Ode/Ode.h>
+	"Client.hpp"
+	"../Game/Models.hpp"
+
+1568125848 source:d:\projects_2\project monster\project monster\sources\engine\timer.cpp
+	"Timer.hpp"
+
+1566619318 d:\projects_2\project monster\project monster\sources\engine\timer.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	"../Config.hpp"
+
+1566889612 source:d:\projects_2\project monster\project monster\sources\game\boxes.cpp
+	"Boxes.hpp"
+
+1573771326 source:d:\projects_2\project monster\project monster\sources\game\models.cpp
+	"Models.hpp"
+
+1572010965 source:d:\projects_2\project monster\project monster\sources\game\pods.cpp
+	"Pods.hpp"
+
+1573488807 source:d:\projects_2\project monster\project monster\sources\game\terrain.cpp
+	"Terrain.hpp"
+
+1572117167 source:d:\projects_2\project monster\project monster\sources\game\textures.cpp
+	"Textures.hpp"
+
+1573849987 source:d:\projects_2\project monster\project monster\sources\game\track.cpp
+	"Track.hpp"
+
+1566138428 source:d:\projects_2\project monster\project monster\sources\game\trucks.cpp
+	"Trucks.hpp"
+
+1573639053 source:d:\projects_2\project monster\project monster\sources\game\weather.cpp
+	"Weather.hpp"
+
+1573219814 source:d:\projects_2\project monster\project monster\sources\interface\imgui.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"imstb_sprintf.h"
+	<Windows.h>
+	<windows.h>
+	<TargetConditionals.h>
+	<Carbon/Carbon.h>
+	<imm.h>
+	"imgui_user.inl"
+
+1573219814 d:\projects_2\project monster\project monster\sources\interface\imgui_internal.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<limits.h>
+	"imstb_textedit.h"
+
+1573219814 d:\projects_2\project monster\project monster\sources\interface\imstb_textedit.h
+	<string.h>
+
+1573219814 source:d:\projects_2\project monster\project monster\sources\interface\imgui_draw.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdio.h>
+	<alloca.h>
+	<malloc.h>
+	<stdlib.h>
+	"imstb_rectpack.h"
+	"imstb_truetype.h"
+
+1573219814 d:\projects_2\project monster\project monster\sources\interface\imstb_rectpack.h
+	<stdlib.h>
+	<assert.h>
+
+1573219814 d:\projects_2\project monster\project monster\sources\interface\imstb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1573219814 source:d:\projects_2\project monster\project monster\sources\interface\imgui_impl_glfw.cpp
+	"imgui.h"
+	"imgui_impl_glfw.h"
+	<GLFW/glfw3.h>
+	<GLFW/glfw3native.h>
+
+1471549960 d:\projects_2\dependencies\glfw-3.2.1.bin.win32\include\glfw\glfw3native.h
+	<windows.h>
+	<ApplicationServices/ApplicationServices.h>
+	<X11/Xlib.h>
+	<X11/extensions/Xrandr.h>
+	<wayland-client.h>
+	<mir_toolkit/mir_client_library.h>
+	<GL/glx.h>
+	<EGL/egl.h>
+
+1560593400 source:d:\projects_2\project monster\project monster\sources\interface\imgui_impl_opengl3.cpp
+	"imgui.h"
+	"imgui_impl_opengl3.h"
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"TargetConditionals.h"
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/glew.h>
+
+1573219814 source:d:\projects_2\project monster\project monster\sources\interface\imgui_widgets.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stddef.h>
+	<stdint.h>
+	"imstb_textedit.h"
+
+1560597000 source:d:\projects_2\project monster\project monster\sources\logger.cpp
+	"Logger.hpp"
+
+1573632713 source:d:\projects_2\project monster\project monster\sources\main.cpp
+	<GL/Glew.h>
+	"Config.hpp"
+	"Engine/Render.hpp"
+	"Engine/Timer.hpp"
+	"Engine/Input.hpp"
+	"Physics/Server.hpp"
+
+1548601300 d:\projects_2\project monster\project monster\sources\resources.hpp
+
+1560597000 source:d:\projects_2\project monster\project monster\sources\physics\client.cpp
+	"Client.hpp"
+
+1573856856 source:d:\projects_2\project monster\project monster\sources\physics\generic.cpp
+	"Generic.hpp"
+
+1586862204 source:d:\projects_2\project monster\project monster\sources\physics\server.cpp
+	"Server.hpp"
+
+1586863673 source:d:\projects_2\project monster\project monster\sources\physics\vehicle.cpp
+	"Vehicle.hpp"
+
+1573853070 source:d:\projects_2\project monster\project monster\sources\resources.rc
+	<windows.h>
+
+1566617200 source:c:\crap\projects\project monster\project monster\sources\common.cpp
+	"Common.hpp"
+
+1566616912 c:\crap\projects\project monster\project monster\sources\common.hpp
+	<windows.h>
+	<string>
+	<vector>
+	<glm.hpp>
+
+1535541758 c:\crap\projects\dependencies\glew-2.1.0\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1537180351 c:\crap\projects\dependencies\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	"detail/setup.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1540995841 c:\crap\projects\dependencies\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+	<cstdint>
+	<type_traits>
+
+1535535170 c:\crap\projects\dependencies\glm\glm\simd\platform.h
+	<cuda.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1535535170 c:\crap\projects\dependencies\glm\glm\fwd.hpp
+	"detail/qualifier.hpp"
+
+1537206526 c:\crap\projects\dependencies\glm\glm\detail\qualifier.hpp
+	"setup.hpp"
+
+1533822423 c:\crap\projects\dependencies\glm\glm\vec2.hpp
+	"./ext/vector_bool2.hpp"
+	"./ext/vector_bool2_precision.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float2_precision.hpp"
+	"./ext/vector_double2.hpp"
+	"./ext/vector_double2_precision.hpp"
+	"./ext/vector_int2.hpp"
+	"./ext/vector_int2_precision.hpp"
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_uint2_precision.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_bool2.hpp
+	"../detail/type_vec2.hpp"
+
+1540995841 c:\crap\projects\dependencies\glm\glm\detail\type_vec2.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\_swizzle.hpp
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\_swizzle_func.hpp
+
+1540995841 c:\crap\projects\dependencies\glm\glm\detail\type_vec2.inl
+	"./compute_vector_relational.hpp"
+
+1533822421 c:\crap\projects\dependencies\glm\glm\detail\compute_vector_relational.hpp
+	"setup.hpp"
+	<limits>
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_bool2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_float2.hpp
+	"../detail/type_vec2.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_float2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_double2.hpp
+	"../detail/type_vec2.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_double2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_int2.hpp
+	"../detail/type_vec2.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_int2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_uint2.hpp
+	"../detail/type_vec2.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_uint2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1533822423 c:\crap\projects\dependencies\glm\glm\vec3.hpp
+	"./ext/vector_bool3.hpp"
+	"./ext/vector_bool3_precision.hpp"
+	"./ext/vector_float3.hpp"
+	"./ext/vector_float3_precision.hpp"
+	"./ext/vector_double3.hpp"
+	"./ext/vector_double3_precision.hpp"
+	"./ext/vector_int3.hpp"
+	"./ext/vector_int3_precision.hpp"
+	"./ext/vector_uint3.hpp"
+	"./ext/vector_uint3_precision.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_bool3.hpp
+	"../detail/type_vec3.hpp"
+
+1540995841 c:\crap\projects\dependencies\glm\glm\detail\type_vec3.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1540995841 c:\crap\projects\dependencies\glm\glm\detail\type_vec3.inl
+	"compute_vector_relational.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_bool3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_float3.hpp
+	"../detail/type_vec3.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_float3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_double3.hpp
+	"../detail/type_vec3.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_double3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_int3.hpp
+	"../detail/type_vec3.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_int3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_uint3.hpp
+	"../detail/type_vec3.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_uint3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1533822423 c:\crap\projects\dependencies\glm\glm\vec4.hpp
+	"./ext/vector_bool4.hpp"
+	"./ext/vector_bool4_precision.hpp"
+	"./ext/vector_float4.hpp"
+	"./ext/vector_float4_precision.hpp"
+	"./ext/vector_double4.hpp"
+	"./ext/vector_double4_precision.hpp"
+	"./ext/vector_int4.hpp"
+	"./ext/vector_int4_precision.hpp"
+	"./ext/vector_uint4.hpp"
+	"./ext/vector_uint4_precision.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_bool4.hpp
+	"../detail/type_vec4.hpp"
+
+1540995841 c:\crap\projects\dependencies\glm\glm\detail\type_vec4.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1540995841 c:\crap\projects\dependencies\glm\glm\detail\type_vec4.inl
+	"compute_vector_relational.hpp"
+	"type_vec4_simd.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\type_vec4_simd.inl
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_bool4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_float4.hpp
+	"../detail/type_vec4.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_float4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_double4.hpp
+	"../detail/type_vec4.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_double4_precision.hpp
+	"../detail/setup.hpp"
+	"../detail/type_vec4.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_int4.hpp
+	"../detail/type_vec4.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_int4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_uint4.hpp
+	"../detail/type_vec4.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_uint4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\mat2x2.hpp
+	"./ext/matrix_double2x2.hpp"
+	"./ext/matrix_double2x2_precision.hpp"
+	"./ext/matrix_float2x2.hpp"
+	"./ext/matrix_float2x2_precision.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_double2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\detail\type_mat2x2.hpp
+	"type_vec2.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\type_mat2x2.inl
+	"../matrix.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\matrix.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"detail/func_matrix.inl"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\mat2x3.hpp
+	"./ext/matrix_double2x3.hpp"
+	"./ext/matrix_double2x3_precision.hpp"
+	"./ext/matrix_float2x3.hpp"
+	"./ext/matrix_float2x3_precision.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_double2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\detail\type_mat2x3.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\type_mat2x3.inl
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_double2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_float2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_float2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\mat2x4.hpp
+	"./ext/matrix_double2x4.hpp"
+	"./ext/matrix_double2x4_precision.hpp"
+	"./ext/matrix_float2x4.hpp"
+	"./ext/matrix_float2x4_precision.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_double2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\detail\type_mat2x4.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\type_mat2x4.inl
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_double2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_float2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_float2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\mat3x2.hpp
+	"./ext/matrix_double3x2.hpp"
+	"./ext/matrix_double3x2_precision.hpp"
+	"./ext/matrix_float3x2.hpp"
+	"./ext/matrix_float3x2_precision.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_double3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\detail\type_mat3x2.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\type_mat3x2.inl
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_double3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\ext\matrix_float3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_float3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\mat3x3.hpp
+	"./ext/matrix_double3x3.hpp"
+	"./ext/matrix_double3x3_precision.hpp"
+	"./ext/matrix_float3x3.hpp"
+	"./ext/matrix_float3x3_precision.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_double3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\detail\type_mat3x3.hpp
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\type_mat3x3.inl
+	"../matrix.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_double3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_float3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_float3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\mat3x4.hpp
+	"./ext/matrix_double3x4.hpp"
+	"./ext/matrix_double3x4_precision.hpp"
+	"./ext/matrix_float3x4.hpp"
+	"./ext/matrix_float3x4_precision.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_double3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\detail\type_mat3x4.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\type_mat3x4.inl
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_double3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_float3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_float3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\mat4x2.hpp
+	"./ext/matrix_double4x2.hpp"
+	"./ext/matrix_double4x2_precision.hpp"
+	"./ext/matrix_float4x2.hpp"
+	"./ext/matrix_float4x2_precision.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_double4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\detail\type_mat4x2.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\type_mat4x2.inl
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_double4x2_precision.hpp
+	"../detail/type_mat4x2.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_float4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_float4x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\mat4x3.hpp
+	"./ext/matrix_double4x3.hpp"
+	"./ext/matrix_double4x3_precision.hpp"
+	"./ext/matrix_float4x3.hpp"
+	"./ext/matrix_float4x3_precision.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_double4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\detail\type_mat4x3.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\type_mat4x3.inl
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_double4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_float4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_float4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\mat4x4.hpp
+	"./ext/matrix_double4x4.hpp"
+	"./ext/matrix_double4x4_precision.hpp"
+	"./ext/matrix_float4x4.hpp"
+	"./ext/matrix_float4x4_precision.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_double4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\detail\type_mat4x4.hpp
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\type_mat4x4.inl
+	"../matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\detail\type_mat4x4_simd.inl
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_double4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_float4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_float4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\geometric.hpp
+	"detail/type_vec3.hpp"
+	"detail/func_geometric.inl"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\detail\func_geometric.inl
+	"../exponential.hpp"
+	"../common.hpp"
+	"func_geometric_simd.inl"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\exponential.hpp
+	"detail/type_vec1.hpp"
+	"detail/type_vec2.hpp"
+	"detail/type_vec3.hpp"
+	"detail/type_vec4.hpp"
+	<cmath>
+	"detail/func_exponential.inl"
+
+1540995841 c:\crap\projects\dependencies\glm\glm\detail\type_vec1.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1540995841 c:\crap\projects\dependencies\glm\glm\detail\type_vec1.inl
+	"./compute_vector_relational.hpp"
+
+1533822421 c:\crap\projects\dependencies\glm\glm\detail\func_exponential.inl
+	"../vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\vector_relational.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"detail/func_vector_relational.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\func_vector_relational.inl
+	"func_vector_relational_simd.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\func_vector_relational_simd.inl
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\_vectorize.hpp
+
+1533822421 c:\crap\projects\dependencies\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1531735568 c:\crap\projects\dependencies\glm\glm\simd\exponential.h
+	"platform.h"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\common.hpp
+	"detail/qualifier.hpp"
+	"detail/_fixes.hpp"
+	"detail/func_common.inl"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\detail\func_common.inl
+	"../vector_relational.hpp"
+	"compute_common.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\detail\compute_common.hpp
+	"setup.hpp"
+	<limits>
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1531735568 c:\crap\projects\dependencies\glm\glm\simd\common.h
+	"platform.h"
+
+1525699382 c:\crap\projects\dependencies\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1525699382 c:\crap\projects\dependencies\glm\glm\simd\geometric.h
+	"common.h"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"../geometric.hpp"
+	"../simd/matrix.h"
+	<cstring>
+
+1525699382 c:\crap\projects\dependencies\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_double2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_float2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_float2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\trigonometric.hpp
+	"detail/setup.hpp"
+	"detail/qualifier.hpp"
+	"detail/func_trigonometric.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1464689061 c:\crap\projects\dependencies\glm\glm\detail\func_trigonometric_simd.inl
+
+1537180351 c:\crap\projects\dependencies\glm\glm\packing.hpp
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float4.hpp"
+	"detail/func_packing.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\func_packing.inl
+	"../common.hpp"
+	"type_half.hpp"
+	"func_packing_simd.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\type_half.inl
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\func_packing_simd.inl
+
+1537180351 c:\crap\projects\dependencies\glm\glm\integer.hpp
+	"detail/qualifier.hpp"
+	"common.hpp"
+	"vector_relational.hpp"
+	"detail/func_integer.inl"
+
+1540995841 c:\crap\projects\dependencies\glm\glm\detail\func_integer.inl
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1525699382 c:\crap\projects\dependencies\glm\glm\simd\integer.h
+
+1568673350 source:c:\crap\projects\project monster\project monster\sources\config.cpp
+	"Config.hpp"
+
+1568644446 c:\crap\projects\project monster\project monster\sources\config.hpp
+	<Glm.hpp>
+	"Logger.hpp"
+
+1549695044 c:\crap\projects\project monster\project monster\sources\logger.hpp
+	<windows.h>
+	<string>
+	<iostream>
+	<fstream>
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+
+1471546360 c:\crap\projects\dependencies\glfw-3.2.1.bin.win32\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1566617514 source:c:\crap\projects\project monster\project monster\sources\engine\camera.cpp
+	"Camera.hpp"
+
+1566617378 c:\crap\projects\project monster\project monster\sources\engine\camera.hpp
+	<time.h>
+	<string>
+	<glm.hpp>
+	<gtc/type_ptr.hpp>
+	<gtx/quaternion.hpp>
+	"../Physics/Vehicle.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../gtc/vec1.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\gtc\quaternion.hpp
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_common.hpp"
+	"../ext/quaternion_float.hpp"
+	"../ext/quaternion_float_precision.hpp"
+	"../ext/quaternion_double.hpp"
+	"../ext/quaternion_double_precision.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../ext/quaternion_trigonometric.hpp"
+	"../ext/quaternion_transform.hpp"
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"quaternion.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\gtc\constants.hpp
+	"../ext/scalar_constants.hpp"
+	"constants.inl"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\scalar_constants.hpp
+	"../detail/setup.hpp"
+	"scalar_constants.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\ext\scalar_constants.inl
+	<limits>
+
+1535535170 c:\crap\projects\dependencies\glm\glm\gtc\constants.inl
+
+1535535170 c:\crap\projects\dependencies\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../ext/matrix_projection.hpp"
+	"../ext/matrix_clip_space.hpp"
+	"../ext/matrix_transform.hpp"
+	"matrix_transform.inl"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_projection.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_projection.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\ext\matrix_projection.inl
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_clip_space.hpp
+	"../ext/scalar_constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"matrix_clip_space.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\ext\matrix_clip_space.inl
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\matrix_transform.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_transform.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\ext\matrix_transform.inl
+
+1535535170 c:\crap\projects\dependencies\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1540995841 c:\crap\projects\dependencies\glm\glm\ext\vector_relational.hpp
+	"../detail/qualifier.hpp"
+	"vector_relational.inl"
+
+1540995841 c:\crap\projects\dependencies\glm\glm\ext\vector_relational.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/type_float.hpp"
+
+1540995841 c:\crap\projects\dependencies\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\quaternion_common.hpp
+	"../ext/scalar_constants.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_common.inl"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\quaternion_geometric.hpp
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"../ext/vector_relational.hpp"
+	"quaternion_geometric.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\ext\quaternion_geometric.inl
+
+1535535170 c:\crap\projects\dependencies\glm\glm\ext\quaternion_common.inl
+	"quaternion_common_simd.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\ext\quaternion_common_simd.inl
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\quaternion_float.hpp
+	"../detail/type_quat.hpp"
+
+1540995841 c:\crap\projects\dependencies\glm\glm\detail\type_quat.hpp
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"type_quat.inl"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\quaternion_relational.hpp
+	"../vector_relational.hpp"
+	"quaternion_relational.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\ext\quaternion_relational.inl
+
+1540995841 c:\crap\projects\dependencies\glm\glm\detail\type_quat.inl
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"../ext/quaternion_geometric.hpp"
+	<limits>
+	"type_quat_simd.inl"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\detail\type_quat_simd.inl
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\quaternion_float_precision.hpp
+	"../detail/type_quat.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\quaternion_double.hpp
+	"../detail/type_quat.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\quaternion_double_precision.hpp
+	"../detail/type_quat.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\quaternion_trigonometric.hpp
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"scalar_constants.hpp"
+	"vector_relational.hpp"
+	<limits>
+	"quaternion_trigonometric.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\ext\quaternion_trigonometric.inl
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\quaternion_transform.hpp
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"quaternion_transform.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\ext\quaternion_transform.inl
+
+1535535170 c:\crap\projects\dependencies\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"epsilon.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1531735568 c:\crap\projects\dependencies\glm\glm\gtc\epsilon.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"epsilon.inl"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\gtc\epsilon.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\gtc\quaternion_simd.inl
+
+1533822422 c:\crap\projects\dependencies\glm\glm\gtc\vec1.hpp
+	"../ext/vector_bool1.hpp"
+	"../ext/vector_bool1_precision.hpp"
+	"../ext/vector_float1.hpp"
+	"../ext/vector_float1_precision.hpp"
+	"../ext/vector_double1.hpp"
+	"../ext/vector_double1_precision.hpp"
+	"../ext/vector_int1.hpp"
+	"../ext/vector_int1_precision.hpp"
+	"../ext/vector_uint1.hpp"
+	"../ext/vector_uint1_precision.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_bool1.hpp
+	"../detail/type_vec1.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_bool1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_float1.hpp
+	"../detail/type_vec1.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_float1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_double1.hpp
+	"../detail/type_vec1.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_double1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_int1.hpp
+	"../detail/type_vec1.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_int1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_uint1.hpp
+	"../detail/type_vec1.hpp"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\vector_uint1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1535535170 c:\crap\projects\dependencies\glm\glm\gtx\quaternion.hpp
+	"../glm.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/quaternion.hpp"
+	"../ext/quaternion_exponential.hpp"
+	"../gtx/norm.hpp"
+	"quaternion.inl"
+
+1537180351 c:\crap\projects\dependencies\glm\glm\ext\quaternion_exponential.hpp
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../ext/scalar_constants.hpp"
+	"quaternion_exponential.inl"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\ext\quaternion_exponential.inl
+
+1531735568 c:\crap\projects\dependencies\glm\glm\gtx\norm.hpp
+	"../geometric.hpp"
+	"../gtx/quaternion.hpp"
+	"norm.inl"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\gtx\norm.inl
+	"../detail/qualifier.hpp"
+
+1535535170 c:\crap\projects\dependencies\glm\glm\gtx\quaternion.inl
+	<limits>
+	"../gtc/constants.hpp"
+
+1568125896 c:\crap\projects\project monster\project monster\sources\physics\vehicle.hpp
+	<Ode/Ode.h>
+	<gtc/constants.hpp>
+	"../Engine/Input.hpp"
+	"../Game/Models.hpp"
+	"../Game/Trucks.hpp"
+	"Server.hpp"
+	"Client.hpp"
+
+1566070676 c:\crap\projects\dependencies\ode-0.16\include\ode\ode.h
+	<ode/odeconfig.h>
+	<ode/compatibility.h>
+	<ode/common.h>
+	<ode/odeinit.h>
+	<ode/contact.h>
+	<ode/error.h>
+	<ode/memory.h>
+	<ode/odemath.h>
+	<ode/matrix.h>
+	<ode/matrix_coop.h>
+	<ode/timer.h>
+	<ode/rotation.h>
+	<ode/mass.h>
+	<ode/misc.h>
+	<ode/objects.h>
+	<ode/collision_space.h>
+	<ode/collision.h>
+	<ode/threading.h>
+	<ode/threading_impl.h>
+	<ode/cooperative.h>
+	<ode/export-dif.h>
+	<ode/version.h>
+	<ode/odecpp.h>
+	<ode/odecpp_collision.h>
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\odeconfig.h
+	<stddef.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<math.h>
+	<string.h>
+	<float.h>
+	<ode/precision.h>
+	<stdint.h>
+
+1549063646 c:\crap\projects\dependencies\ode-0.16\include\ode\precision.h
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\compatibility.h
+
+1549064476 c:\crap\projects\dependencies\ode-0.16\include\ode\common.h
+	<ode/odeconfig.h>
+	<ode/error.h>
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\error.h
+	<ode/odeconfig.h>
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\odeinit.h
+	<ode/common.h>
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\contact.h
+	<ode/common.h>
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\memory.h
+	<ode/odeconfig.h>
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\odemath.h
+	<ode/common.h>
+	<ode/odemath_legacy.h>
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\odemath_legacy.h
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\matrix.h
+	<ode/common.h>
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\matrix_coop.h
+	<ode/common.h>
+	<ode/cooperative.h>
+	<ode/threading.h>
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\cooperative.h
+	<ode/common.h>
+	<ode/threading.h>
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\threading.h
+	<ode/odeconfig.h>
+	<time.h>
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\timer.h
+	<ode/odeconfig.h>
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\rotation.h
+	<ode/common.h>
+	<ode/compatibility.h>
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\mass.h
+	<ode/common.h>
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\misc.h
+	<ode/common.h>
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\objects.h
+	<ode/common.h>
+	<ode/mass.h>
+	<ode/contact.h>
+	<ode/threading.h>
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\collision_space.h
+	<ode/common.h>
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\collision.h
+	<ode/common.h>
+	<ode/collision_space.h>
+	<ode/contact.h>
+	"collision_trimesh.h"
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\collision_trimesh.h
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\threading_impl.h
+	<ode/odeconfig.h>
+	<ode/threading.h>
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\export-dif.h
+	<ode/common.h>
+
+1549063646 c:\crap\projects\dependencies\ode-0.16\include\ode\version.h
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\odecpp.h
+
+1544389443 c:\crap\projects\dependencies\ode-0.16\include\ode\odecpp_collision.h
+
+1566889612 c:\crap\projects\project monster\project monster\sources\game\models.hpp
+	<algorithm>
+	"Pods.hpp"
+	"Textures.hpp"
+
+1566889612 c:\crap\projects\project monster\project monster\sources\game\pods.hpp
+	"../Common.hpp"
+	<string>
+	<vector>
+	"../Logger.hpp"
+	"../Config.hpp"
+
+1568838133 c:\crap\projects\project monster\project monster\sources\game\textures.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	<Soil2/Soil2.h>
+	"Pods.hpp"
+
+1458722020 c:\crap\projects\dependencies\soil2\src\soil2\soil2.h
+
+1568131096 c:\crap\projects\project monster\project monster\sources\game\trucks.hpp
+	"../Common.hpp"
+	"Pods.hpp"
+	"Models.hpp"
+	"Textures.hpp"
+
+1566568450 c:\crap\projects\project monster\project monster\sources\physics\server.hpp
+	<Ode/Ode.h>
+	<list>
+	"../Game/Terrain.hpp"
+	"Generic.hpp"
+	"Vehicle.hpp"
+	"Client.hpp"
+
+1568844552 c:\crap\projects\project monster\project monster\sources\game\terrain.hpp
+	<vector>
+	<string>
+	"Pods.hpp"
+
+1560100944 c:\crap\projects\project monster\project monster\sources\physics\client.hpp
+	<Ode/Ode.h>
+
+1568687354 source:c:\crap\projects\project monster\project monster\sources\engine\frustum.cpp
+	"Frustum.hpp"
+
+1568687354 c:\crap\projects\project monster\project monster\sources\engine\frustum.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	<glm.hpp>
+
+1568233450 source:c:\crap\projects\project monster\project monster\sources\engine\input.cpp
+	"Input.hpp"
+
+1568233340 c:\crap\projects\project monster\project monster\sources\engine\input.hpp
+	<iostream>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1568844777 source:c:\crap\projects\project monster\project monster\sources\engine\quadtree.cpp
+	"QuadTree.hpp"
+
+1568278502 c:\crap\projects\project monster\project monster\sources\engine\quadtree.hpp
+	"Frustum.hpp"
+	"../Game/Track.hpp"
+	"../Game/Terrain.hpp"
+	"../Game/Textures.hpp"
+
+1568844417 c:\crap\projects\project monster\project monster\sources\game\track.hpp
+	"../Common.hpp"
+	"Pods.hpp"
+	"Terrain.hpp"
+	"Textures.hpp"
+	"Boxes.hpp"
+	"Models.hpp"
+	"Weather.hpp"
+
+1566889612 c:\crap\projects\project monster\project monster\sources\game\boxes.hpp
+	"Pods.hpp"
+
+1551627098 c:\crap\projects\project monster\project monster\sources\game\weather.hpp
+	"Models.hpp"
+
+1568845407 source:c:\crap\projects\project monster\project monster\sources\engine\render.cpp
+	"Render.hpp"
+
+1568838228 c:\crap\projects\project monster\project monster\sources\engine\render.hpp
+	<gtc/constants.hpp>
+	<gtc/type_ptr.hpp>
+	<gtc/matrix_access.hpp>
+	"../Interface/imgui.h"
+	"../Interface/imgui_impl_glfw.h"
+	"../Interface/imgui_impl_opengl3.h"
+	"Input.hpp"
+	"QuadTree.hpp"
+	"Camera.hpp"
+	"Frustum.hpp"
+	"Timer.hpp"
+	"../Config.hpp"
+	"../Game/Track.hpp"
+	"../Game/Trucks.hpp"
+	"../Physics/Server.hpp"
+	"../Physics/Client.hpp"
+	"../Physics/Generic.hpp"
+	"../Physics/Vehicle.hpp"
+
+1560597000 c:\crap\projects\project monster\project monster\sources\interface\imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	<stdint.h>
+	"imgui_user.h"
+
+1560522048 c:\crap\projects\project monster\project monster\sources\interface\imconfig.h
+
+1560597000 c:\crap\projects\project monster\project monster\sources\interface\imgui_impl_glfw.h
+
+1560522048 c:\crap\projects\project monster\project monster\sources\interface\imgui_impl_opengl3.h
+	<GL/Glew.h>
+
+1566615752 c:\crap\projects\project monster\project monster\sources\physics\generic.hpp
+	<Ode/Ode.h>
+	"Client.hpp"
+	"../Game/Models.hpp"
+
+1568125848 source:c:\crap\projects\project monster\project monster\sources\engine\timer.cpp
+	"Timer.hpp"
+
+1566619318 c:\crap\projects\project monster\project monster\sources\engine\timer.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	"../Config.hpp"
+
+1566889612 source:c:\crap\projects\project monster\project monster\sources\game\boxes.cpp
+	"Boxes.hpp"
+
+1568661684 source:c:\crap\projects\project monster\project monster\sources\game\models.cpp
+	"Models.hpp"
+
+1566138428 source:c:\crap\projects\project monster\project monster\sources\game\pods.cpp
+	"Pods.hpp"
+
+1568844777 source:c:\crap\projects\project monster\project monster\sources\game\terrain.cpp
+	"Terrain.hpp"
+
+1560599036 source:c:\crap\projects\project monster\project monster\sources\game\textures.cpp
+	"Textures.hpp"
+
+1566606390 source:c:\crap\projects\project monster\project monster\sources\game\track.cpp
+	"Track.hpp"
+
+1566138428 source:c:\crap\projects\project monster\project monster\sources\game\trucks.cpp
+	"Trucks.hpp"
+
+1565995262 source:c:\crap\projects\project monster\project monster\sources\interface\imgui.cpp
+	<stb_image.h>
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"imstb_sprintf.h"
+	<Windows.h>
+	<windows.h>
+	<TargetConditionals.h>
+	<Carbon/Carbon.h>
+	<imm.h>
+	"imgui_user.inl"
+
+1560597000 c:\crap\projects\project monster\project monster\sources\interface\imgui_internal.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<limits.h>
+	"imstb_textedit.h"
+
+1560597000 c:\crap\projects\project monster\project monster\sources\interface\imstb_textedit.h
+	<string.h>
+
+1560597000 source:c:\crap\projects\project monster\project monster\sources\interface\imgui_draw.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdio.h>
+	<alloca.h>
+	<malloc.h>
+	<stdlib.h>
+	"imstb_rectpack.h"
+	"imstb_truetype.h"
+
+1560597000 c:\crap\projects\project monster\project monster\sources\interface\imstb_rectpack.h
+	<stdlib.h>
+	<assert.h>
+
+1560597000 c:\crap\projects\project monster\project monster\sources\interface\imstb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1568233544 source:c:\crap\projects\project monster\project monster\sources\interface\imgui_impl_glfw.cpp
+	"imgui.h"
+	"imgui_impl_glfw.h"
+	<GLFW/glfw3.h>
+	<GLFW/glfw3native.h>
+
+1471546360 c:\crap\projects\dependencies\glfw-3.2.1.bin.win32\include\glfw\glfw3native.h
+	<windows.h>
+	<ApplicationServices/ApplicationServices.h>
+	<X11/Xlib.h>
+	<X11/extensions/Xrandr.h>
+	<wayland-client.h>
+	<mir_toolkit/mir_client_library.h>
+	<GL/glx.h>
+	<EGL/egl.h>
+
+1560597000 source:c:\crap\projects\project monster\project monster\sources\interface\imgui_impl_opengl3.cpp
+	"imgui.h"
+	"imgui_impl_opengl3.h"
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"TargetConditionals.h"
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/glew.h>
+
+1560597000 source:c:\crap\projects\project monster\project monster\sources\interface\imgui_widgets.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stddef.h>
+	<stdint.h>
+	"imstb_textedit.h"
+
+1560597000 source:c:\crap\projects\project monster\project monster\sources\logger.cpp
+	"Logger.hpp"
+
+1568844451 source:c:\crap\projects\project monster\project monster\sources\main.cpp
+	<GL/Glew.h>
+	"Config.hpp"
+	"Engine/Render.hpp"
+	"Engine/Timer.hpp"
+	"Engine/Input.hpp"
+	"Physics/Server.hpp"
+
+1548601300 c:\crap\projects\project monster\project monster\sources\resources.hpp
+
+1560597000 source:c:\crap\projects\project monster\project monster\sources\physics\client.cpp
+	"Client.hpp"
+
+1566615772 source:c:\crap\projects\project monster\project monster\sources\physics\generic.cpp
+	"Generic.hpp"
+
+1568688472 source:c:\crap\projects\project monster\project monster\sources\physics\server.cpp
+	"Server.hpp"
+
+1568688580 source:c:\crap\projects\project monster\project monster\sources\physics\vehicle.cpp
+	"Vehicle.hpp"
+
+1568844884 source:c:\crap\projects\project monster\project monster\sources\resources.rc
+	<windows.h>
+
+1568380704 source:c:\crap\projects\project monster\project monster\sources\game\weather.cpp
+	"Weather.hpp"
+
+1547934991 source:c:\crap\projects\project monster\project monster\sources\engine\vbo.cpp
+	"VBO.hpp"
+
+1550195487 c:\crap\projects\project monster\project monster\sources\engine\vbo.hpp
+	<vector>
+	<GL/Glew.h>
+	"../Common.hpp"
+
+1551650071 source:c:\crap\projects\project monster\project monster\sources\game\map.cpp
+	"Map.hpp"
+
+1548466953 c:\crap\projects\project monster\project monster\sources\game\map.hpp
+	<algorithm>
+	"../Common.hpp"
+	"Pods.hpp"
+	"Terrain.hpp"
+	"Textures.hpp"
+	"Boxes.hpp"
+	"Models.hpp"
+	"Weather.hpp"
+
+1560598311 source:c:\crap\projects\project monster\project monster\sources\engine\font.cpp
+	"Font.hpp"
+
+1551653248 c:\crap\projects\project monster\project monster\sources\engine\font.hpp
+	"../common.hpp"
+
+1560598311 source:d:\projects_2\project monster\project monster\sources\engine\font.cpp
+	"Font.hpp"
+
+1551653248 d:\projects_2\project monster\project monster\sources\engine\font.hpp
+	"../common.hpp"
+
+1547938591 source:d:\projects_2\project monster\project monster\sources\engine\vbo.cpp
+	"VBO.hpp"
+
+1550199087 d:\projects_2\project monster\project monster\sources\engine\vbo.hpp
+	<vector>
+	<GL/Glew.h>
+	"../Common.hpp"
+
+1551653671 source:d:\projects_2\project monster\project monster\sources\game\map.cpp
+	"Map.hpp"
+
+1548470553 d:\projects_2\project monster\project monster\sources\game\map.hpp
+	<algorithm>
+	"../Common.hpp"
+	"Pods.hpp"
+	"Terrain.hpp"
+	"Textures.hpp"
+	"Boxes.hpp"
+	"Models.hpp"
+	"Weather.hpp"
+
+1536013586 d:\projects_2\dependencies\glm\glm\gtc\matrix_access.hpp
+	"../detail/setup.hpp"
+	"matrix_access.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtc\matrix_access.inl
+
+1555399164 d:\projects_2\dependencies\glfw-3.3.bin.win32\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl32.h>
+	<GLES2/gl2ext.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<GL/glcorearb.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<vulkan/vulkan.h>
+
+1555399164 d:\projects_2\dependencies\glfw-3.3.bin.win32\include\glfw\glfw3native.h
+	<windows.h>
+	<ApplicationServices/ApplicationServices.h>
+	<X11/Xlib.h>
+	<X11/extensions/Xrandr.h>
+	<wayland-client.h>
+	<GL/glx.h>
+	<EGL/egl.h>
+	<GL/osmesa.h>
+
+1555377563 c:\crap\projects\dependencies\glfw-3.3.bin.win32\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl32.h>
+	<GLES2/gl2ext.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<GL/glcorearb.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+	<vulkan/vulkan.h>
+
+1555377563 c:\crap\projects\dependencies\glfw-3.3.bin.win32\include\glfw\glfw3native.h
+	<windows.h>
+	<ApplicationServices/ApplicationServices.h>
+	<X11/Xlib.h>
+	<X11/extensions/Xrandr.h>
+	<wayland-client.h>
+	<GL/glx.h>
+	<EGL/egl.h>
+	<GL/osmesa.h>
+
+1559563017 source:d:\projects_2\project monster\project monster collisions 2\sources\common.cpp
+	"Common.hpp"
+
+1559563030 d:\projects_2\project monster\project monster collisions 2\sources\common.hpp
+	<windows.h>
+	<string>
+	<vector>
+	<GL/Glew.h>
+	<glm.hpp>
+	<cstdio>
+
+1559479812 source:d:\projects_2\project monster\project monster collisions 2\sources\config.cpp
+	"Config.hpp"
+
+1552474950 d:\projects_2\project monster\project monster collisions 2\sources\config.hpp
+	<Glm.hpp>
+	"Logger.hpp"
+
+1549695044 d:\projects_2\project monster\project monster collisions 2\sources\logger.hpp
+	<windows.h>
+	<string>
+	<iostream>
+	<fstream>
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+
+1552433356 source:d:\projects_2\project monster\project monster collisions 2\sources\engine\camera.cpp
+	"Camera.hpp"
+
+1550179500 d:\projects_2\project monster\project monster collisions 2\sources\engine\camera.hpp
+	<time.h>
+	<string>
+	<glm.hpp>
+	<gtc/type_ptr.hpp>
+	<gtx/quaternion.hpp>
+	"../Physics/Vehicle.hpp"
+
+1559567564 d:\projects_2\project monster\project monster collisions 2\sources\physics\vehicle.hpp
+	<Ode/Ode.h>
+	"../Game/Models.hpp"
+	"../Game/Trucks.hpp"
+	"Server.hpp"
+	"Client.hpp"
+
+1559777085 d:\projects_2\project monster\project monster collisions 2\sources\game\models.hpp
+	<algorithm>
+	"Pods.hpp"
+	"Textures.hpp"
+
+1552436476 d:\projects_2\project monster\project monster collisions 2\sources\game\pods.hpp
+	"../Common.hpp"
+	<string>
+	<vector>
+	"../Logger.hpp"
+	"../Config.hpp"
+
+1552469780 d:\projects_2\project monster\project monster collisions 2\sources\game\textures.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	<Soil2/Soil2.h>
+	"Pods.hpp"
+
+1549693640 d:\projects_2\project monster\project monster collisions 2\sources\game\trucks.hpp
+	"../Common.hpp"
+	"Pods.hpp"
+	"Models.hpp"
+	"Textures.hpp"
+
+1559567565 d:\projects_2\project monster\project monster collisions 2\sources\physics\server.hpp
+	<Ode/Ode.h>
+	<list>
+	"../Game/Terrain.hpp"
+	"Client.hpp"
+
+1552470432 d:\projects_2\project monster\project monster collisions 2\sources\game\terrain.hpp
+	<vector>
+	<string>
+	"Pods.hpp"
+
+1559562467 d:\projects_2\project monster\project monster collisions 2\sources\physics\client.hpp
+	<Ode/Ode.h>
+
+1551653308 source:d:\projects_2\project monster\project monster collisions 2\sources\engine\font.cpp
+	"Font.hpp"
+
+1551653248 d:\projects_2\project monster\project monster collisions 2\sources\engine\font.hpp
+	"../common.hpp"
+
+1551653898 source:d:\projects_2\project monster\project monster collisions 2\sources\engine\frustum.cpp
+	"Frustum.hpp"
+
+1550179500 d:\projects_2\project monster\project monster collisions 2\sources\engine\frustum.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	<glm.hpp>
+
+1551678924 source:d:\projects_2\project monster\project monster collisions 2\sources\engine\input.cpp
+	"Input.hpp"
+
+1549693024 d:\projects_2\project monster\project monster collisions 2\sources\engine\input.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+
+1558979278 source:d:\projects_2\project monster\project monster collisions 2\sources\engine\quadtree.cpp
+	"QuadTree.hpp"
+
+1552470432 d:\projects_2\project monster\project monster collisions 2\sources\engine\quadtree.hpp
+	"Frustum.hpp"
+	"../Game/Track.hpp"
+	"../Game/Terrain.hpp"
+	"../Game/Textures.hpp"
+
+1559777058 d:\projects_2\project monster\project monster collisions 2\sources\game\track.hpp
+	"../Common.hpp"
+	"Pods.hpp"
+	"Terrain.hpp"
+	"Textures.hpp"
+	"Boxes.hpp"
+	"Models.hpp"
+	"Weather.hpp"
+
+1550249730 d:\projects_2\project monster\project monster collisions 2\sources\game\boxes.hpp
+	"Pods.hpp"
+
+1551627098 d:\projects_2\project monster\project monster collisions 2\sources\game\weather.hpp
+	"Models.hpp"
+
+1559791203 source:d:\projects_2\project monster\project monster collisions 2\sources\engine\render.cpp
+	"Render.hpp"
+
+1559787876 d:\projects_2\project monster\project monster collisions 2\sources\engine\render.hpp
+	<gtc/constants.hpp>
+	<gtc/type_ptr.hpp>
+	<gtc/matrix_access.hpp>
+	"../Interface/imgui.h"
+	"../Interface/imgui_impl_glfw.h"
+	"../Interface/imgui_impl_opengl3.h"
+	"Input.hpp"
+	"QuadTree.hpp"
+	"Camera.hpp"
+	"Frustum.hpp"
+	"../Config.hpp"
+	"../Game/Track.hpp"
+	"../Game/Trucks.hpp"
+	"../Physics/Server.hpp"
+	"../Physics/Client.hpp"
+	"../Physics/Generic.hpp"
+	"../Physics/Vehicle.hpp"
+
+1557236168 d:\projects_2\project monster\project monster collisions 2\sources\interface\imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	<stdint.h>
+	"imgui_user.h"
+
+1557236168 d:\projects_2\project monster\project monster collisions 2\sources\interface\imconfig.h
+
+1557236168 d:\projects_2\project monster\project monster collisions 2\sources\interface\imgui_impl_glfw.h
+
+1557352302 d:\projects_2\project monster\project monster collisions 2\sources\interface\imgui_impl_opengl3.h
+
+1559789086 d:\projects_2\project monster\project monster collisions 2\sources\physics\generic.hpp
+	<Ode/Ode.h>
+	"../Common.hpp"
+	"Client.hpp"
+	"../Game/Models.hpp"
+
+1549662194 source:d:\projects_2\project monster\project monster collisions 2\sources\engine\timer.cpp
+	"Timer.hpp"
+
+1550249730 d:\projects_2\project monster\project monster collisions 2\sources\engine\timer.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+
+1551653068 source:d:\projects_2\project monster\project monster collisions 2\sources\game\boxes.cpp
+	"Boxes.hpp"
+
+1558976324 source:d:\projects_2\project monster\project monster collisions 2\sources\game\models.cpp
+	"Models.hpp"
+
+1551919812 source:d:\projects_2\project monster\project monster collisions 2\sources\game\pods.cpp
+	"Pods.hpp"
+
+1552470432 source:d:\projects_2\project monster\project monster collisions 2\sources\game\terrain.cpp
+	"Terrain.hpp"
+
+1551681184 source:d:\projects_2\project monster\project monster collisions 2\sources\game\textures.cpp
+	"Textures.hpp"
+
+1552477300 source:d:\projects_2\project monster\project monster collisions 2\sources\game\track.cpp
+	"Track.hpp"
+
+1551653068 source:d:\projects_2\project monster\project monster collisions 2\sources\game\trucks.cpp
+	"Trucks.hpp"
+
+1559364084 source:d:\projects_2\project monster\project monster collisions 2\sources\game\weather.cpp
+	"Weather.hpp"
+
+1557236168 source:d:\projects_2\project monster\project monster collisions 2\sources\interface\imgui.cpp
+	<stb_image.h>
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"imstb_sprintf.h"
+	<Windows.h>
+	<windows.h>
+	<imm.h>
+	"imgui_user.inl"
+
+1557236168 d:\projects_2\project monster\project monster collisions 2\sources\interface\imgui_internal.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<limits.h>
+	"imstb_textedit.h"
+
+1557236168 d:\projects_2\project monster\project monster collisions 2\sources\interface\imstb_textedit.h
+	<string.h>
+
+1557236168 source:d:\projects_2\project monster\project monster collisions 2\sources\interface\imgui_draw.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdio.h>
+	<alloca.h>
+	<malloc.h>
+	<stdlib.h>
+	"imstb_rectpack.h"
+	"imstb_truetype.h"
+
+1557236168 d:\projects_2\project monster\project monster collisions 2\sources\interface\imstb_rectpack.h
+	<stdlib.h>
+	<assert.h>
+
+1557236168 d:\projects_2\project monster\project monster collisions 2\sources\interface\imstb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1557236168 source:d:\projects_2\project monster\project monster collisions 2\sources\interface\imgui_impl_glfw.cpp
+	"imgui.h"
+	"imgui_impl_glfw.h"
+	<GLFW/glfw3.h>
+	<GLFW/glfw3native.h>
+
+1557352372 source:d:\projects_2\project monster\project monster collisions 2\sources\interface\imgui_impl_opengl3.cpp
+	"imgui.h"
+	"imgui_impl_opengl3.h"
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"TargetConditionals.h"
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/gl3w.h>
+	<GL/glew.h>
+	<glad/glad.h>
+
+1557236168 source:d:\projects_2\project monster\project monster collisions 2\sources\interface\imgui_widgets.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stddef.h>
+	<stdint.h>
+	"imstb_textedit.h"
+
+1551598932 source:d:\projects_2\project monster\project monster collisions 2\sources\logger.cpp
+	"Logger.hpp"
+
+1559311602 source:d:\projects_2\project monster\project monster collisions 2\sources\main.cpp
+	<GL/Glew.h>
+	"Config.hpp"
+	"Resources.hpp"
+	"Engine/Render.hpp"
+	"Engine/Timer.hpp"
+
+1548601300 d:\projects_2\project monster\project monster collisions 2\sources\resources.hpp
+
+1549662194 source:d:\projects_2\project monster\project monster collisions 2\sources\physics\client.cpp
+	"Client.hpp"
+
+1559790932 source:d:\projects_2\project monster\project monster collisions 2\sources\physics\generic.cpp
+	"Generic.hpp"
+
+1559786944 source:d:\projects_2\project monster\project monster collisions 2\sources\physics\server.cpp
+	"Server.hpp"
+
+1559563113 source:d:\projects_2\project monster\project monster collisions 2\sources\physics\vehicle.cpp
+	"Vehicle.hpp"
+
+1559576007 source:d:\projects_2\project monster\project monster collisions 2\sources\resources.rc
+	<windows.h>
+	"Resources.hpp"
+
+1559910547 source:d:\projects_2\project monster\project monster collisions\sources\common.cpp
+	"Common.hpp"
+
+1559910604 d:\projects_2\project monster\project monster collisions\sources\common.hpp
+	<windows.h>
+	<string>
+	<vector>
+	<GL/Glew.h>
+	<glm.hpp>
+	<cstdio>
+	<ode/ode.h>
+
+1559479812 source:d:\projects_2\project monster\project monster collisions\sources\config.cpp
+	"Config.hpp"
+
+1552474950 d:\projects_2\project monster\project monster collisions\sources\config.hpp
+	<Glm.hpp>
+	"Logger.hpp"
+
+1549695044 d:\projects_2\project monster\project monster collisions\sources\logger.hpp
+	<windows.h>
+	<string>
+	<iostream>
+	<fstream>
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+
+1552433356 source:d:\projects_2\project monster\project monster collisions\sources\engine\camera.cpp
+	"Camera.hpp"
+
+1550179500 d:\projects_2\project monster\project monster collisions\sources\engine\camera.hpp
+	<time.h>
+	<string>
+	<glm.hpp>
+	<gtc/type_ptr.hpp>
+	<gtx/quaternion.hpp>
+	"../Physics/Vehicle.hpp"
+
+1559567564 d:\projects_2\project monster\project monster collisions\sources\physics\vehicle.hpp
+	<Ode/Ode.h>
+	"../Game/Models.hpp"
+	"../Game/Trucks.hpp"
+	"Server.hpp"
+	"Client.hpp"
+
+1559777085 d:\projects_2\project monster\project monster collisions\sources\game\models.hpp
+	<algorithm>
+	"Pods.hpp"
+	"Textures.hpp"
+
+1552436476 d:\projects_2\project monster\project monster collisions\sources\game\pods.hpp
+	"../Common.hpp"
+	<string>
+	<vector>
+	"../Logger.hpp"
+	"../Config.hpp"
+
+1552469780 d:\projects_2\project monster\project monster collisions\sources\game\textures.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	<Soil2/Soil2.h>
+	"Pods.hpp"
+
+1549693640 d:\projects_2\project monster\project monster collisions\sources\game\trucks.hpp
+	"../Common.hpp"
+	"Pods.hpp"
+	"Models.hpp"
+	"Textures.hpp"
+
+1559567565 d:\projects_2\project monster\project monster collisions\sources\physics\server.hpp
+	<Ode/Ode.h>
+	<list>
+	"../Game/Terrain.hpp"
+	"Client.hpp"
+
+1552470432 d:\projects_2\project monster\project monster collisions\sources\game\terrain.hpp
+	<vector>
+	<string>
+	"Pods.hpp"
+
+1559562467 d:\projects_2\project monster\project monster collisions\sources\physics\client.hpp
+	<Ode/Ode.h>
+
+1551653308 source:d:\projects_2\project monster\project monster collisions\sources\engine\font.cpp
+	"Font.hpp"
+
+1551653248 d:\projects_2\project monster\project monster collisions\sources\engine\font.hpp
+	"../common.hpp"
+
+1551653898 source:d:\projects_2\project monster\project monster collisions\sources\engine\frustum.cpp
+	"Frustum.hpp"
+
+1550179500 d:\projects_2\project monster\project monster collisions\sources\engine\frustum.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	<glm.hpp>
+
+1551678924 source:d:\projects_2\project monster\project monster collisions\sources\engine\input.cpp
+	"Input.hpp"
+
+1549693024 d:\projects_2\project monster\project monster collisions\sources\engine\input.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+
+1558979278 source:d:\projects_2\project monster\project monster collisions\sources\engine\quadtree.cpp
+	"QuadTree.hpp"
+
+1552470432 d:\projects_2\project monster\project monster collisions\sources\engine\quadtree.hpp
+	"Frustum.hpp"
+	"../Game/Track.hpp"
+	"../Game/Terrain.hpp"
+	"../Game/Textures.hpp"
+
+1559777058 d:\projects_2\project monster\project monster collisions\sources\game\track.hpp
+	"../Common.hpp"
+	"Pods.hpp"
+	"Terrain.hpp"
+	"Textures.hpp"
+	"Boxes.hpp"
+	"Models.hpp"
+	"Weather.hpp"
+
+1550249730 d:\projects_2\project monster\project monster collisions\sources\game\boxes.hpp
+	"Pods.hpp"
+
+1551627098 d:\projects_2\project monster\project monster collisions\sources\game\weather.hpp
+	"Models.hpp"
+
+1559938000 source:d:\projects_2\project monster\project monster collisions\sources\engine\render.cpp
+	"Render.hpp"
+
+1559787876 d:\projects_2\project monster\project monster collisions\sources\engine\render.hpp
+	<gtc/constants.hpp>
+	<gtc/type_ptr.hpp>
+	<gtc/matrix_access.hpp>
+	"../Interface/imgui.h"
+	"../Interface/imgui_impl_glfw.h"
+	"../Interface/imgui_impl_opengl3.h"
+	"Input.hpp"
+	"QuadTree.hpp"
+	"Camera.hpp"
+	"Frustum.hpp"
+	"../Config.hpp"
+	"../Game/Track.hpp"
+	"../Game/Trucks.hpp"
+	"../Physics/Server.hpp"
+	"../Physics/Client.hpp"
+	"../Physics/Generic.hpp"
+	"../Physics/Vehicle.hpp"
+
+1557236168 d:\projects_2\project monster\project monster collisions\sources\interface\imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	<stdint.h>
+	"imgui_user.h"
+
+1557236168 d:\projects_2\project monster\project monster collisions\sources\interface\imconfig.h
+
+1557236168 d:\projects_2\project monster\project monster collisions\sources\interface\imgui_impl_glfw.h
+
+1557352302 d:\projects_2\project monster\project monster collisions\sources\interface\imgui_impl_opengl3.h
+
+1559933172 d:\projects_2\project monster\project monster collisions\sources\physics\generic.hpp
+	<Ode/Ode.h>
+	"../Common.hpp"
+	"Client.hpp"
+	"../Game/Models.hpp"
+
+1549662194 source:d:\projects_2\project monster\project monster collisions\sources\engine\timer.cpp
+	"Timer.hpp"
+
+1550249730 d:\projects_2\project monster\project monster collisions\sources\engine\timer.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+
+1551653068 source:d:\projects_2\project monster\project monster collisions\sources\game\boxes.cpp
+	"Boxes.hpp"
+
+1558976324 source:d:\projects_2\project monster\project monster collisions\sources\game\models.cpp
+	"Models.hpp"
+
+1551919812 source:d:\projects_2\project monster\project monster collisions\sources\game\pods.cpp
+	"Pods.hpp"
+
+1552470432 source:d:\projects_2\project monster\project monster collisions\sources\game\terrain.cpp
+	"Terrain.hpp"
+
+1559938911 source:d:\projects_2\project monster\project monster collisions\sources\game\textures.cpp
+	"Textures.hpp"
+
+1552477300 source:d:\projects_2\project monster\project monster collisions\sources\game\track.cpp
+	"Track.hpp"
+
+1551653068 source:d:\projects_2\project monster\project monster collisions\sources\game\trucks.cpp
+	"Trucks.hpp"
+
+1559364084 source:d:\projects_2\project monster\project monster collisions\sources\game\weather.cpp
+	"Weather.hpp"
+
+1557236168 source:d:\projects_2\project monster\project monster collisions\sources\interface\imgui.cpp
+	<stb_image.h>
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"imstb_sprintf.h"
+	<Windows.h>
+	<windows.h>
+	<imm.h>
+	"imgui_user.inl"
+
+1557236168 d:\projects_2\project monster\project monster collisions\sources\interface\imgui_internal.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<limits.h>
+	"imstb_textedit.h"
+
+1557236168 d:\projects_2\project monster\project monster collisions\sources\interface\imstb_textedit.h
+	<string.h>
+
+1557236168 source:d:\projects_2\project monster\project monster collisions\sources\interface\imgui_draw.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdio.h>
+	<alloca.h>
+	<malloc.h>
+	<stdlib.h>
+	"imstb_rectpack.h"
+	"imstb_truetype.h"
+
+1557236168 d:\projects_2\project monster\project monster collisions\sources\interface\imstb_rectpack.h
+	<stdlib.h>
+	<assert.h>
+
+1557236168 d:\projects_2\project monster\project monster collisions\sources\interface\imstb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1557236168 source:d:\projects_2\project monster\project monster collisions\sources\interface\imgui_impl_glfw.cpp
+	"imgui.h"
+	"imgui_impl_glfw.h"
+	<GLFW/glfw3.h>
+	<GLFW/glfw3native.h>
+
+1557352372 source:d:\projects_2\project monster\project monster collisions\sources\interface\imgui_impl_opengl3.cpp
+	"imgui.h"
+	"imgui_impl_opengl3.h"
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"TargetConditionals.h"
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/gl3w.h>
+	<GL/glew.h>
+	<glad/glad.h>
+
+1557236168 source:d:\projects_2\project monster\project monster collisions\sources\interface\imgui_widgets.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stddef.h>
+	<stdint.h>
+	"imstb_textedit.h"
+
+1551598932 source:d:\projects_2\project monster\project monster collisions\sources\logger.cpp
+	"Logger.hpp"
+
+1559311602 source:d:\projects_2\project monster\project monster collisions\sources\main.cpp
+	<GL/Glew.h>
+	"Config.hpp"
+	"Resources.hpp"
+	"Engine/Render.hpp"
+	"Engine/Timer.hpp"
+
+1548601300 d:\projects_2\project monster\project monster collisions\sources\resources.hpp
+
+1549662194 source:d:\projects_2\project monster\project monster collisions\sources\physics\client.cpp
+	"Client.hpp"
+
+1559938446 source:d:\projects_2\project monster\project monster collisions\sources\physics\generic.cpp
+	"Generic.hpp"
+
+1559933712 source:d:\projects_2\project monster\project monster collisions\sources\physics\server.cpp
+	"Server.hpp"
+
+1559932346 source:d:\projects_2\project monster\project monster collisions\sources\physics\vehicle.cpp
+	"Vehicle.hpp"
+
+1559934122 source:d:\projects_2\project monster\project monster collisions\sources\resources.rc
+	<windows.h>
+	"Resources.hpp"
+
+1531735568 c:\crap\projects\dependencies\glm\glm\gtc\matrix_access.hpp
+	"../detail/setup.hpp"
+	"matrix_access.inl"
+
+1533822422 c:\crap\projects\dependencies\glm\glm\gtc\matrix_access.inl
+
+1560596998 source:d:\projects_2\project monster\project monster - v1.3.2\sources\common.cpp
+	"Common.hpp"
+
+1560490373 d:\projects_2\project monster\project monster - v1.3.2\sources\common.hpp
+	<windows.h>
+	<string>
+	<vector>
+	<GL/Glew.h>
+	<glm.hpp>
+	<cstdio>
+	<ode/ode.h>
+
+1560596998 source:d:\projects_2\project monster\project monster - v1.3.2\sources\config.cpp
+	"Config.hpp"
+
+1560596417 d:\projects_2\project monster\project monster - v1.3.2\sources\config.hpp
+	<Glm.hpp>
+	"Logger.hpp"
+
+1549695044 d:\projects_2\project monster\project monster - v1.3.2\sources\logger.hpp
+	<windows.h>
+	<string>
+	<iostream>
+	<fstream>
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+
+1560598445 source:d:\projects_2\project monster\project monster - v1.3.2\sources\engine\camera.cpp
+	"Camera.hpp"
+
+1550179500 d:\projects_2\project monster\project monster - v1.3.2\sources\engine\camera.hpp
+	<time.h>
+	<string>
+	<glm.hpp>
+	<gtc/type_ptr.hpp>
+	<gtx/quaternion.hpp>
+	"../Physics/Vehicle.hpp"
+
+1560469502 d:\projects_2\project monster\project monster - v1.3.2\sources\physics\vehicle.hpp
+	<Ode/Ode.h>
+	"../Game/Models.hpp"
+	"../Game/Trucks.hpp"
+	"Server.hpp"
+	"Client.hpp"
+
+1560468971 d:\projects_2\project monster\project monster - v1.3.2\sources\game\models.hpp
+	<algorithm>
+	"Pods.hpp"
+	"Textures.hpp"
+
+1552436476 d:\projects_2\project monster\project monster - v1.3.2\sources\game\pods.hpp
+	"../Common.hpp"
+	<string>
+	<vector>
+	"../Logger.hpp"
+	"../Config.hpp"
+
+1560598829 d:\projects_2\project monster\project monster - v1.3.2\sources\game\textures.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	<Soil2/Soil2.h>
+	"Pods.hpp"
+
+1549693640 d:\projects_2\project monster\project monster - v1.3.2\sources\game\trucks.hpp
+	"../Common.hpp"
+	"Pods.hpp"
+	"Models.hpp"
+	"Textures.hpp"
+
+1560517985 d:\projects_2\project monster\project monster - v1.3.2\sources\physics\server.hpp
+	<Ode/Ode.h>
+	<list>
+	"../Game/Terrain.hpp"
+	"Client.hpp"
+
+1560601357 d:\projects_2\project monster\project monster - v1.3.2\sources\game\terrain.hpp
+	<vector>
+	<string>
+	"Pods.hpp"
+
+1560100942 d:\projects_2\project monster\project monster - v1.3.2\sources\physics\client.hpp
+	<Ode/Ode.h>
+
+1560598311 source:d:\projects_2\project monster\project monster - v1.3.2\sources\engine\font.cpp
+	"Font.hpp"
+
+1551653248 d:\projects_2\project monster\project monster - v1.3.2\sources\engine\font.hpp
+	"../common.hpp"
+
+1560598486 source:d:\projects_2\project monster\project monster - v1.3.2\sources\engine\frustum.cpp
+	"Frustum.hpp"
+
+1550179500 d:\projects_2\project monster\project monster - v1.3.2\sources\engine\frustum.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	<glm.hpp>
+
+1560598524 source:d:\projects_2\project monster\project monster - v1.3.2\sources\engine\input.cpp
+	"Input.hpp"
+
+1549693024 d:\projects_2\project monster\project monster - v1.3.2\sources\engine\input.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+
+1560602846 source:d:\projects_2\project monster\project monster - v1.3.2\sources\engine\quadtree.cpp
+	"QuadTree.hpp"
+
+1560598652 d:\projects_2\project monster\project monster - v1.3.2\sources\engine\quadtree.hpp
+	"Frustum.hpp"
+	"../Game/Track.hpp"
+	"../Game/Terrain.hpp"
+	"../Game/Textures.hpp"
+
+1559777058 d:\projects_2\project monster\project monster - v1.3.2\sources\game\track.hpp
+	"../Common.hpp"
+	"Pods.hpp"
+	"Terrain.hpp"
+	"Textures.hpp"
+	"Boxes.hpp"
+	"Models.hpp"
+	"Weather.hpp"
+
+1560601529 d:\projects_2\project monster\project monster - v1.3.2\sources\game\boxes.hpp
+	"Pods.hpp"
+
+1551627098 d:\projects_2\project monster\project monster - v1.3.2\sources\game\weather.hpp
+	"Models.hpp"
+
+1560602743 source:d:\projects_2\project monster\project monster - v1.3.2\sources\engine\render.cpp
+	"Render.hpp"
+
+1560596268 d:\projects_2\project monster\project monster - v1.3.2\sources\engine\render.hpp
+	<gtc/constants.hpp>
+	<gtc/type_ptr.hpp>
+	<gtc/matrix_access.hpp>
+	"../Interface/imgui.h"
+	"../Interface/imgui_impl_glfw.h"
+	"../Interface/imgui_impl_opengl3.h"
+	"QuadTree.hpp"
+	"Camera.hpp"
+	"Frustum.hpp"
+	"../Config.hpp"
+	"../Game/Track.hpp"
+	"../Game/Trucks.hpp"
+	"../Physics/Generic.hpp"
+
+1560596998 d:\projects_2\project monster\project monster - v1.3.2\sources\interface\imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	<stdint.h>
+	"imgui_user.h"
+
+1560522046 d:\projects_2\project monster\project monster - v1.3.2\sources\interface\imconfig.h
+
+1560596998 d:\projects_2\project monster\project monster - v1.3.2\sources\interface\imgui_impl_glfw.h
+
+1560522047 d:\projects_2\project monster\project monster - v1.3.2\sources\interface\imgui_impl_opengl3.h
+	<GL/Glew.h>
+
+1560468971 d:\projects_2\project monster\project monster - v1.3.2\sources\physics\generic.hpp
+	<Ode/Ode.h>
+	"../Common.hpp"
+	"Client.hpp"
+	"../Game/Models.hpp"
+
+1560596998 source:d:\projects_2\project monster\project monster - v1.3.2\sources\engine\timer.cpp
+	"Timer.hpp"
+
+1550249730 d:\projects_2\project monster\project monster - v1.3.2\sources\engine\timer.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+
+1560602814 source:d:\projects_2\project monster\project monster - v1.3.2\sources\game\boxes.cpp
+	"Boxes.hpp"
+
+1560596998 source:d:\projects_2\project monster\project monster - v1.3.2\sources\game\models.cpp
+	"Models.hpp"
+
+1560596998 source:d:\projects_2\project monster\project monster - v1.3.2\sources\game\pods.cpp
+	"Pods.hpp"
+
+1560602952 source:d:\projects_2\project monster\project monster - v1.3.2\sources\game\terrain.cpp
+	"Terrain.hpp"
+
+1560599035 source:d:\projects_2\project monster\project monster - v1.3.2\sources\game\textures.cpp
+	"Textures.hpp"
+
+1560596998 source:d:\projects_2\project monster\project monster - v1.3.2\sources\game\track.cpp
+	"Track.hpp"
+
+1560596998 source:d:\projects_2\project monster\project monster - v1.3.2\sources\game\trucks.cpp
+	"Trucks.hpp"
+
+1560602790 source:d:\projects_2\project monster\project monster - v1.3.2\sources\game\weather.cpp
+	"Weather.hpp"
+
+1560596998 source:d:\projects_2\project monster\project monster - v1.3.2\sources\interface\imgui.cpp
+	<stb_image.h>
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"imstb_sprintf.h"
+	<Windows.h>
+	<windows.h>
+	<TargetConditionals.h>
+	<Carbon/Carbon.h>
+	<imm.h>
+	"imgui_user.inl"
+
+1560596998 d:\projects_2\project monster\project monster - v1.3.2\sources\interface\imgui_internal.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<limits.h>
+	"imstb_textedit.h"
+
+1560596998 d:\projects_2\project monster\project monster - v1.3.2\sources\interface\imstb_textedit.h
+	<string.h>
+
+1560596998 source:d:\projects_2\project monster\project monster - v1.3.2\sources\interface\imgui_draw.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdio.h>
+	<alloca.h>
+	<malloc.h>
+	<stdlib.h>
+	"imstb_rectpack.h"
+	"imstb_truetype.h"
+
+1560596998 d:\projects_2\project monster\project monster - v1.3.2\sources\interface\imstb_rectpack.h
+	<stdlib.h>
+	<assert.h>
+
+1560596998 d:\projects_2\project monster\project monster - v1.3.2\sources\interface\imstb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1560596998 source:d:\projects_2\project monster\project monster - v1.3.2\sources\interface\imgui_impl_glfw.cpp
+	"imgui.h"
+	"imgui_impl_glfw.h"
+	<GLFW/glfw3.h>
+	<GLFW/glfw3native.h>
+
+1560596998 source:d:\projects_2\project monster\project monster - v1.3.2\sources\interface\imgui_impl_opengl3.cpp
+	"imgui.h"
+	"imgui_impl_opengl3.h"
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"TargetConditionals.h"
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/glew.h>
+
+1560596998 source:d:\projects_2\project monster\project monster - v1.3.2\sources\interface\imgui_widgets.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stddef.h>
+	<stdint.h>
+	"imstb_textedit.h"
+
+1560596998 source:d:\projects_2\project monster\project monster - v1.3.2\sources\logger.cpp
+	"Logger.hpp"
+
+1560601811 source:d:\projects_2\project monster\project monster - v1.3.2\sources\main.cpp
+	<GL/Glew.h>
+	"Config.hpp"
+	"Resources.hpp"
+	"Engine/Input.hpp"
+	"Engine/Render.hpp"
+	"Engine/Timer.hpp"
+	"Physics/Server.hpp"
+	"Physics/Client.hpp"
+	"Physics/Generic.hpp"
+	"Physics/Vehicle.hpp"
+
+1548601300 d:\projects_2\project monster\project monster - v1.3.2\sources\resources.hpp
+
+1560596998 source:d:\projects_2\project monster\project monster - v1.3.2\sources\physics\client.cpp
+	"Client.hpp"
+
+1560596998 source:d:\projects_2\project monster\project monster - v1.3.2\sources\physics\generic.cpp
+	"Generic.hpp"
+
+1560598182 source:d:\projects_2\project monster\project monster - v1.3.2\sources\physics\server.cpp
+	"Server.hpp"
+
+1560598031 source:d:\projects_2\project monster\project monster - v1.3.2\sources\physics\vehicle.cpp
+	"Vehicle.hpp"
+
+1560601869 source:d:\projects_2\project monster\project monster - v1.3.2\sources\resources.rc
+	<windows.h>
+	"Resources.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\glm.hpp
+	"detail/_fixes.hpp"
+	"detail/setup.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\_fixes.hpp
+	<cmath>
+
+1554200832 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+	<cstdint>
+	<type_traits>
+
+1547208968 c:\crap\projects\dependencies\glm-0.9.9.5\glm\simd\platform.h
+	<cuda.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1551441938 c:\crap\projects\dependencies\glm-0.9.9.5\glm\fwd.hpp
+	"detail/qualifier.hpp"
+
+1537206528 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\qualifier.hpp
+	"setup.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\vec2.hpp
+	"./ext/vector_bool2.hpp"
+	"./ext/vector_bool2_precision.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float2_precision.hpp"
+	"./ext/vector_double2.hpp"
+	"./ext/vector_double2_precision.hpp"
+	"./ext/vector_int2.hpp"
+	"./ext/vector_int2_precision.hpp"
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_uint2_precision.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_bool2.hpp
+	"../detail/type_vec2.hpp"
+
+1540995842 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_vec2.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\_swizzle.hpp
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\_swizzle_func.hpp
+
+1540995842 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_vec2.inl
+	"./compute_vector_relational.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\compute_vector_relational.hpp
+	"setup.hpp"
+	<limits>
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_bool2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_float2.hpp
+	"../detail/type_vec2.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_float2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_double2.hpp
+	"../detail/type_vec2.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_double2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_int2.hpp
+	"../detail/type_vec2.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_int2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_uint2.hpp
+	"../detail/type_vec2.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_uint2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\vec3.hpp
+	"./ext/vector_bool3.hpp"
+	"./ext/vector_bool3_precision.hpp"
+	"./ext/vector_float3.hpp"
+	"./ext/vector_float3_precision.hpp"
+	"./ext/vector_double3.hpp"
+	"./ext/vector_double3_precision.hpp"
+	"./ext/vector_int3.hpp"
+	"./ext/vector_int3_precision.hpp"
+	"./ext/vector_uint3.hpp"
+	"./ext/vector_uint3_precision.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_bool3.hpp
+	"../detail/type_vec3.hpp"
+
+1540995842 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_vec3.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1540995842 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_vec3.inl
+	"compute_vector_relational.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_bool3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_float3.hpp
+	"../detail/type_vec3.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_float3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_double3.hpp
+	"../detail/type_vec3.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_double3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_int3.hpp
+	"../detail/type_vec3.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_int3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_uint3.hpp
+	"../detail/type_vec3.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_uint3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\vec4.hpp
+	"./ext/vector_bool4.hpp"
+	"./ext/vector_bool4_precision.hpp"
+	"./ext/vector_float4.hpp"
+	"./ext/vector_float4_precision.hpp"
+	"./ext/vector_double4.hpp"
+	"./ext/vector_double4_precision.hpp"
+	"./ext/vector_int4.hpp"
+	"./ext/vector_int4_precision.hpp"
+	"./ext/vector_uint4.hpp"
+	"./ext/vector_uint4_precision.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_bool4.hpp
+	"../detail/type_vec4.hpp"
+
+1540995842 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_vec4.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1540995842 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_vec4.inl
+	"compute_vector_relational.hpp"
+	"type_vec4_simd.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_vec4_simd.inl
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_bool4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_float4.hpp
+	"../detail/type_vec4.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_float4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_double4.hpp
+	"../detail/type_vec4.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_double4_precision.hpp
+	"../detail/setup.hpp"
+	"../detail/type_vec4.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_int4.hpp
+	"../detail/type_vec4.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_int4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_uint4.hpp
+	"../detail/type_vec4.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_uint4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\mat2x2.hpp
+	"./ext/matrix_double2x2.hpp"
+	"./ext/matrix_double2x2_precision.hpp"
+	"./ext/matrix_float2x2.hpp"
+	"./ext/matrix_float2x2_precision.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_double2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat2x2.hpp
+	"type_vec2.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat2x2.inl
+	"../matrix.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\matrix.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"detail/func_matrix.inl"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\mat2x3.hpp
+	"./ext/matrix_double2x3.hpp"
+	"./ext/matrix_double2x3_precision.hpp"
+	"./ext/matrix_float2x3.hpp"
+	"./ext/matrix_float2x3_precision.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_double2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat2x3.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat2x3.inl
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_double2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_float2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_float2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\mat2x4.hpp
+	"./ext/matrix_double2x4.hpp"
+	"./ext/matrix_double2x4_precision.hpp"
+	"./ext/matrix_float2x4.hpp"
+	"./ext/matrix_float2x4_precision.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_double2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat2x4.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat2x4.inl
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_double2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_float2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_float2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\mat3x2.hpp
+	"./ext/matrix_double3x2.hpp"
+	"./ext/matrix_double3x2_precision.hpp"
+	"./ext/matrix_float3x2.hpp"
+	"./ext/matrix_float3x2_precision.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_double3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat3x2.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat3x2.inl
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_double3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_float3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_float3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\mat3x3.hpp
+	"./ext/matrix_double3x3.hpp"
+	"./ext/matrix_double3x3_precision.hpp"
+	"./ext/matrix_float3x3.hpp"
+	"./ext/matrix_float3x3_precision.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_double3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat3x3.hpp
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat3x3.inl
+	"../matrix.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_double3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_float3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_float3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\mat3x4.hpp
+	"./ext/matrix_double3x4.hpp"
+	"./ext/matrix_double3x4_precision.hpp"
+	"./ext/matrix_float3x4.hpp"
+	"./ext/matrix_float3x4_precision.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_double3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat3x4.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat3x4.inl
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_double3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_float3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_float3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\mat4x2.hpp
+	"./ext/matrix_double4x2.hpp"
+	"./ext/matrix_double4x2_precision.hpp"
+	"./ext/matrix_float4x2.hpp"
+	"./ext/matrix_float4x2_precision.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_double4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat4x2.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat4x2.inl
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_double4x2_precision.hpp
+	"../detail/type_mat4x2.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_float4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_float4x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\mat4x3.hpp
+	"./ext/matrix_double4x3.hpp"
+	"./ext/matrix_double4x3_precision.hpp"
+	"./ext/matrix_float4x3.hpp"
+	"./ext/matrix_float4x3_precision.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_double4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat4x3.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1547207008 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat4x3.inl
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_double4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_float4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_float4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\mat4x4.hpp
+	"./ext/matrix_double4x4.hpp"
+	"./ext/matrix_double4x4_precision.hpp"
+	"./ext/matrix_float4x4.hpp"
+	"./ext/matrix_float4x4_precision.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_double4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat4x4.hpp
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat4x4.inl
+	"../matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_mat4x4_simd.inl
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_double4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_float4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_float4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\geometric.hpp
+	"detail/type_vec3.hpp"
+	"detail/func_geometric.inl"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\func_geometric.inl
+	"../exponential.hpp"
+	"../common.hpp"
+	"func_geometric_simd.inl"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\exponential.hpp
+	"detail/type_vec1.hpp"
+	"detail/type_vec2.hpp"
+	"detail/type_vec3.hpp"
+	"detail/type_vec4.hpp"
+	<cmath>
+	"detail/func_exponential.inl"
+
+1540995842 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_vec1.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1540995842 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_vec1.inl
+	"./compute_vector_relational.hpp"
+
+1533822422 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\func_exponential.inl
+	"../vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\vector_relational.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"detail/func_vector_relational.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\func_vector_relational.inl
+	"func_vector_relational_simd.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\func_vector_relational_simd.inl
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\_vectorize.hpp
+
+1533822422 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1531735570 c:\crap\projects\dependencies\glm-0.9.9.5\glm\simd\exponential.h
+	"platform.h"
+
+1554134548 c:\crap\projects\dependencies\glm-0.9.9.5\glm\common.hpp
+	"detail/qualifier.hpp"
+	"detail/_fixes.hpp"
+	"detail/func_common.inl"
+
+1551438568 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\func_common.inl
+	"../vector_relational.hpp"
+	"compute_common.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\compute_common.hpp
+	"setup.hpp"
+	<limits>
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1552469110 c:\crap\projects\dependencies\glm-0.9.9.5\glm\simd\common.h
+	"platform.h"
+
+1525699384 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1525699384 c:\crap\projects\dependencies\glm-0.9.9.5\glm\simd\geometric.h
+	"common.h"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"../geometric.hpp"
+	"../simd/matrix.h"
+	<cstring>
+
+1525699384 c:\crap\projects\dependencies\glm-0.9.9.5\glm\simd\matrix.h
+	"geometric.h"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_double2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_float2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_float2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\trigonometric.hpp
+	"detail/setup.hpp"
+	"detail/qualifier.hpp"
+	"detail/func_trigonometric.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1464689062 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\func_trigonometric_simd.inl
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\packing.hpp
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float4.hpp"
+	"detail/func_packing.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\func_packing.inl
+	"../common.hpp"
+	"type_half.hpp"
+	"func_packing_simd.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1547207008 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_half.inl
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\func_packing_simd.inl
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\integer.hpp
+	"detail/qualifier.hpp"
+	"common.hpp"
+	"vector_relational.hpp"
+	"detail/func_integer.inl"
+
+1540995842 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\func_integer.inl
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1525699384 c:\crap\projects\dependencies\glm-0.9.9.5\glm\simd\integer.h
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../gtc/vec1.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\gtc\quaternion.hpp
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_common.hpp"
+	"../ext/quaternion_float.hpp"
+	"../ext/quaternion_float_precision.hpp"
+	"../ext/quaternion_double.hpp"
+	"../ext/quaternion_double_precision.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../ext/quaternion_trigonometric.hpp"
+	"../ext/quaternion_transform.hpp"
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"quaternion.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\gtc\constants.hpp
+	"../ext/scalar_constants.hpp"
+	"constants.inl"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\scalar_constants.hpp
+	"../detail/setup.hpp"
+	"scalar_constants.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\scalar_constants.inl
+	<limits>
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\gtc\constants.inl
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../ext/matrix_projection.hpp"
+	"../ext/matrix_clip_space.hpp"
+	"../ext/matrix_transform.hpp"
+	"matrix_transform.inl"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_projection.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_projection.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_projection.inl
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_clip_space.hpp
+	"../ext/scalar_constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"matrix_clip_space.inl"
+
+1554134548 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_clip_space.inl
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_transform.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_transform.inl"
+
+1554134548 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\matrix_transform.inl
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1540995842 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_relational.hpp
+	"../detail/qualifier.hpp"
+	"vector_relational.inl"
+
+1540995842 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_relational.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/type_float.hpp"
+
+1540995842 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\quaternion_common.hpp
+	"../ext/scalar_constants.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_common.inl"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\quaternion_geometric.hpp
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"../ext/vector_relational.hpp"
+	"quaternion_geometric.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\quaternion_geometric.inl
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\quaternion_common.inl
+	"quaternion_common_simd.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\quaternion_common_simd.inl
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\quaternion_float.hpp
+	"../detail/type_quat.hpp"
+
+1540995842 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_quat.hpp
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"type_quat.inl"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\quaternion_relational.hpp
+	"../vector_relational.hpp"
+	"quaternion_relational.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\quaternion_relational.inl
+
+1540995842 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_quat.inl
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"../ext/quaternion_geometric.hpp"
+	<limits>
+	"type_quat_simd.inl"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\detail\type_quat_simd.inl
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\quaternion_float_precision.hpp
+	"../detail/type_quat.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\quaternion_double.hpp
+	"../detail/type_quat.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\quaternion_double_precision.hpp
+	"../detail/type_quat.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\quaternion_trigonometric.hpp
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"scalar_constants.hpp"
+	"vector_relational.hpp"
+	<limits>
+	"quaternion_trigonometric.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\quaternion_trigonometric.inl
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\quaternion_transform.hpp
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"quaternion_transform.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\quaternion_transform.inl
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"epsilon.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1531735570 c:\crap\projects\dependencies\glm-0.9.9.5\glm\gtc\epsilon.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"epsilon.inl"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\gtc\epsilon.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\gtc\quaternion_simd.inl
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\gtc\vec1.hpp
+	"../ext/vector_bool1.hpp"
+	"../ext/vector_bool1_precision.hpp"
+	"../ext/vector_float1.hpp"
+	"../ext/vector_float1_precision.hpp"
+	"../ext/vector_double1.hpp"
+	"../ext/vector_double1_precision.hpp"
+	"../ext/vector_int1.hpp"
+	"../ext/vector_int1_precision.hpp"
+	"../ext/vector_uint1.hpp"
+	"../ext/vector_uint1_precision.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_bool1.hpp
+	"../detail/type_vec1.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_bool1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_float1.hpp
+	"../detail/type_vec1.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_float1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_double1.hpp
+	"../detail/type_vec1.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_double1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_int1.hpp
+	"../detail/type_vec1.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_int1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_uint1.hpp
+	"../detail/type_vec1.hpp"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\vector_uint1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\gtc\type_ptr.inl
+	<cstring>
+
+1554130906 c:\crap\projects\dependencies\glm-0.9.9.5\glm\gtx\quaternion.hpp
+	"../glm.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/quaternion.hpp"
+	"../ext/quaternion_exponential.hpp"
+	"../gtx/norm.hpp"
+	"quaternion.inl"
+
+1537180352 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\quaternion_exponential.hpp
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../ext/scalar_constants.hpp"
+	"quaternion_exponential.inl"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\ext\quaternion_exponential.inl
+
+1554129442 c:\crap\projects\dependencies\glm-0.9.9.5\glm\gtx\norm.hpp
+	"../geometric.hpp"
+	"../gtx/quaternion.hpp"
+	"norm.inl"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\gtx\norm.inl
+	"../detail/qualifier.hpp"
+
+1535535172 c:\crap\projects\dependencies\glm-0.9.9.5\glm\gtx\quaternion.inl
+	<limits>
+	"../gtc/constants.hpp"
+
+1531735570 c:\crap\projects\dependencies\glm-0.9.9.5\glm\gtc\matrix_access.hpp
+	"../detail/setup.hpp"
+	"matrix_access.inl"
+
+1533822424 c:\crap\projects\dependencies\glm-0.9.9.5\glm\gtc\matrix_access.inl
+
+1566506233 source:c:\crap\projects\project monster\project monster_\sources\common.cpp
+	"Common.hpp"
+
+1566506233 c:\crap\projects\project monster\project monster_\sources\common.hpp
+	<windows.h>
+	<string>
+	<algorithm>
+	<vector>
+	<cstdio>
+	<glm.hpp>
+	<ode/ode.h>
+
+1566575491 source:c:\crap\projects\project monster\project monster_\sources\config.cpp
+	"Config.hpp"
+
+1566484137 c:\crap\projects\project monster\project monster_\sources\config.hpp
+	<Glm.hpp>
+	"Logger.hpp"
+
+1549695044 c:\crap\projects\project monster\project monster_\sources\logger.hpp
+	<windows.h>
+	<string>
+	<iostream>
+	<fstream>
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+
+1566574111 source:c:\crap\projects\project monster\project monster_\sources\engine\camera.cpp
+	"Camera.hpp"
+
+1566502425 c:\crap\projects\project monster\project monster_\sources\engine\camera.hpp
+	<time.h>
+	<string>
+	<glm.hpp>
+	<gtc/type_ptr.hpp>
+	<gtx/quaternion.hpp>
+	"../Physics/Vehicle.hpp"
+
+1566506137 c:\crap\projects\project monster\project monster_\sources\physics\vehicle.hpp
+	<Ode/Ode.h>
+	"../Game/Models.hpp"
+	"../Game/Trucks.hpp"
+	"Server.hpp"
+	"Client.hpp"
+
+1566498223 c:\crap\projects\project monster\project monster_\sources\game\models.hpp
+	<algorithm>
+	"Pods.hpp"
+	"Textures.hpp"
+
+1566498456 c:\crap\projects\project monster\project monster_\sources\game\pods.hpp
+	"../Common.hpp"
+	<string>
+	<vector>
+	"../Logger.hpp"
+	"../Config.hpp"
+
+1560598829 c:\crap\projects\project monster\project monster_\sources\game\textures.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	<Soil2/Soil2.h>
+	"Pods.hpp"
+
+1566499810 c:\crap\projects\project monster\project monster_\sources\game\trucks.hpp
+	"../Common.hpp"
+	"Pods.hpp"
+	"Models.hpp"
+	"Textures.hpp"
+
+1566568449 c:\crap\projects\project monster\project monster_\sources\physics\server.hpp
+	<Ode/Ode.h>
+	<list>
+	"../Game/Terrain.hpp"
+	"Generic.hpp"
+	"Vehicle.hpp"
+	"Client.hpp"
+
+1566555336 c:\crap\projects\project monster\project monster_\sources\game\terrain.hpp
+	<vector>
+	<string>
+	"Pods.hpp"
+
+1566567323 c:\crap\projects\project monster\project monster_\sources\physics\generic.hpp
+	<Ode/Ode.h>
+	"Client.hpp"
+	"../Game/Models.hpp"
+
+1560100942 c:\crap\projects\project monster\project monster_\sources\physics\client.hpp
+	<Ode/Ode.h>
+
+1566554983 source:c:\crap\projects\project monster\project monster_\sources\engine\frustum.cpp
+	"Frustum.hpp"
+	"frustum.hpp"
+
+1566554859 c:\crap\projects\project monster\project monster_\sources\engine\frustum.hpp
+	<glm.hpp>
+	"../Config.hpp"
+
+1566471127 source:c:\crap\projects\project monster\project monster_\sources\engine\input.cpp
+	"Input.hpp"
+
+1549693024 c:\crap\projects\project monster\project monster_\sources\engine\input.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+
+1566566097 source:c:\crap\projects\project monster\project monster_\sources\engine\quadtree.cpp
+	"QuadTree.hpp"
+
+1566566049 c:\crap\projects\project monster\project monster_\sources\engine\quadtree.hpp
+	"Frustum.hpp"
+	"../Game/Track.hpp"
+	"../Game/Terrain.hpp"
+	"../Game/Textures.hpp"
+
+1566504937 c:\crap\projects\project monster\project monster_\sources\game\track.hpp
+	"../Common.hpp"
+	"Pods.hpp"
+	"Terrain.hpp"
+	"Textures.hpp"
+	"Boxes.hpp"
+	"Models.hpp"
+	"Weather.hpp"
+
+1566498389 c:\crap\projects\project monster\project monster_\sources\game\boxes.hpp
+	"Pods.hpp"
+
+1551627098 c:\crap\projects\project monster\project monster_\sources\game\weather.hpp
+	"Models.hpp"
+
+1566575512 source:c:\crap\projects\project monster\project monster_\sources\engine\timer.cpp
+	"Timer.hpp"
+
+1566555054 c:\crap\projects\project monster\project monster_\sources\engine\timer.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+
+1566498389 source:c:\crap\projects\project monster\project monster_\sources\game\boxes.cpp
+	"Boxes.hpp"
+
+1566138451 source:c:\crap\projects\project monster\project monster_\sources\game\models.cpp
+	"Models.hpp"
+
+1566138426 source:c:\crap\projects\project monster\project monster_\sources\game\pods.cpp
+	"Pods.hpp"
+
+1566505081 source:c:\crap\projects\project monster\project monster_\sources\game\terrain.cpp
+	"Terrain.hpp"
+
+1560599035 source:c:\crap\projects\project monster\project monster_\sources\game\textures.cpp
+	"Textures.hpp"
+
+1566497620 source:c:\crap\projects\project monster\project monster_\sources\game\track.cpp
+	"Track.hpp"
+
+1566138426 source:c:\crap\projects\project monster\project monster_\sources\game\trucks.cpp
+	"Trucks.hpp"
+
+1560602790 source:c:\crap\projects\project monster\project monster_\sources\game\weather.cpp
+	"Weather.hpp"
+
+1565995261 source:c:\crap\projects\project monster\project monster_\sources\interface\imgui.cpp
+	<stb_image.h>
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"imstb_sprintf.h"
+	<Windows.h>
+	<windows.h>
+	<TargetConditionals.h>
+	<Carbon/Carbon.h>
+	<imm.h>
+	"imgui_user.inl"
+
+1560596998 c:\crap\projects\project monster\project monster_\sources\interface\imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	<stdint.h>
+	"imgui_user.h"
+
+1560522046 c:\crap\projects\project monster\project monster_\sources\interface\imconfig.h
+
+1560596998 c:\crap\projects\project monster\project monster_\sources\interface\imgui_internal.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<limits.h>
+	"imstb_textedit.h"
+
+1560596998 c:\crap\projects\project monster\project monster_\sources\interface\imstb_textedit.h
+	<string.h>
+
+1560596998 source:c:\crap\projects\project monster\project monster_\sources\interface\imgui_draw.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdio.h>
+	<alloca.h>
+	<malloc.h>
+	<stdlib.h>
+	"imstb_rectpack.h"
+	"imstb_truetype.h"
+
+1560596998 c:\crap\projects\project monster\project monster_\sources\interface\imstb_rectpack.h
+	<stdlib.h>
+	<assert.h>
+
+1560596998 c:\crap\projects\project monster\project monster_\sources\interface\imstb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1560596998 source:c:\crap\projects\project monster\project monster_\sources\interface\imgui_impl_glfw.cpp
+	"imgui.h"
+	"imgui_impl_glfw.h"
+	<GLFW/glfw3.h>
+	<GLFW/glfw3native.h>
+
+1560596998 c:\crap\projects\project monster\project monster_\sources\interface\imgui_impl_glfw.h
+
+1560596998 source:c:\crap\projects\project monster\project monster_\sources\interface\imgui_impl_opengl3.cpp
+	"imgui.h"
+	"imgui_impl_opengl3.h"
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"TargetConditionals.h"
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/glew.h>
+
+1560522047 c:\crap\projects\project monster\project monster_\sources\interface\imgui_impl_opengl3.h
+	<GL/Glew.h>
+
+1560596998 source:c:\crap\projects\project monster\project monster_\sources\interface\imgui_widgets.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stddef.h>
+	<stdint.h>
+	"imstb_textedit.h"
+
+1560596998 source:c:\crap\projects\project monster\project monster_\sources\logger.cpp
+	"Logger.hpp"
+
+1566575671 source:c:\crap\projects\project monster\project monster_\sources\main.cpp
+	<GL/Glew.h>
+	"Config.hpp"
+	"Resources.hpp"
+	"Engine/Input.hpp"
+	"Engine/Render.hpp"
+	"Engine/Timer.hpp"
+	"Physics/Server.hpp"
+
+1548601300 c:\crap\projects\project monster\project monster_\sources\resources.hpp
+
+1566566403 c:\crap\projects\project monster\project monster_\sources\engine\render.hpp
+	<gtc/constants.hpp>
+	<gtc/type_ptr.hpp>
+	<gtc/matrix_access.hpp>
+	"../Interface/imgui.h"
+	"../Interface/imgui_impl_glfw.h"
+	"../Interface/imgui_impl_opengl3.h"
+	"QuadTree.hpp"
+	"Camera.hpp"
+	"Frustum.hpp"
+	"../Config.hpp"
+	"../Game/Track.hpp"
+	"../Game/Trucks.hpp"
+
+1560596998 source:c:\crap\projects\project monster\project monster_\sources\physics\client.cpp
+	"Client.hpp"
+
+1566567067 source:c:\crap\projects\project monster\project monster_\sources\physics\generic.cpp
+	"Generic.hpp"
+
+1566575751 source:c:\crap\projects\project monster\project monster_\sources\physics\server.cpp
+	"Server.hpp"
+
+1566574197 source:c:\crap\projects\project monster\project monster_\sources\physics\vehicle.cpp
+	"Vehicle.hpp"
+
+1566499904 source:c:\crap\projects\project monster\project monster_\sources\resources.rc
+	<windows.h>
+	"Resources.hpp"
+
+1566575167 source:c:\crap\projects\project monster\project monster_\sources\engine\render.cpp
+	"Render.hpp"
+
+1573219814 d:\projects_2\project monster\project monster\sources\interface\imgui_impl_opengl2.h
+
+1573219814 source:d:\projects_2\project monster\project monster\sources\interface\imgui_impl_opengl2.cpp
+	"imgui.h"
+	"imgui_impl_opengl2.h"
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+
+1578235456 d:\projects_2\dependencies\glm\glm\simd\neon.h
+	<arm_neon.h>
+
+1567842339 d:\projects_2\dependencies\glm\glm\gtx\component_wise.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"component_wise.inl"
+
+1536015770 d:\projects_2\dependencies\glm\glm\gtx\component_wise.inl
+	<limits>
+
+1577928940 d:\projects_2\dependencies\glfw-3.3.1.bin.win32\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<vulkan/vulkan.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl32.h>
+	<GLES2/gl2ext.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<GL/glcorearb.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1577928940 d:\projects_2\dependencies\glfw-3.3.1.bin.win32\include\glfw\glfw3native.h
+	<windows.h>
+	<ApplicationServices/ApplicationServices.h>
+	<X11/Xlib.h>
+	<X11/extensions/Xrandr.h>
+	<wayland-client.h>
+	<GL/glx.h>
+	<EGL/egl.h>
+	<GL/osmesa.h>
+
+1585768045 source:d:\projects_2\project monster\project monster__\sources\common.cpp
+	"Common.hpp"
+
+1566616912 d:\projects_2\project monster\project monster__\sources\common.hpp
+	<windows.h>
+	<string>
+	<vector>
+	<glm.hpp>
+
+1586852564 source:d:\projects_2\project monster\project monster__\sources\config.cpp
+	"Config.hpp"
+
+1585768225 d:\projects_2\project monster\project monster__\sources\config.hpp
+	<Glm.hpp>
+	"Logger.hpp"
+
+1549695044 d:\projects_2\project monster\project monster__\sources\logger.hpp
+	<windows.h>
+	<string>
+	<iostream>
+	<fstream>
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+
+1566617514 source:d:\projects_2\project monster\project monster__\sources\engine\camera.cpp
+	"Camera.hpp"
+
+1566617378 d:\projects_2\project monster\project monster__\sources\engine\camera.hpp
+	<time.h>
+	<string>
+	<glm.hpp>
+	<gtc/type_ptr.hpp>
+	<gtx/quaternion.hpp>
+	"../Physics/Vehicle.hpp"
+
+1572043780 d:\projects_2\project monster\project monster__\sources\physics\vehicle.hpp
+	<Ode/Ode.h>
+	<gtc/constants.hpp>
+	"../Engine/Input.hpp"
+	"../Game/Models.hpp"
+	"../Game/Trucks.hpp"
+	"Server.hpp"
+	"Client.hpp"
+
+1568233340 d:\projects_2\project monster\project monster__\sources\engine\input.hpp
+	<iostream>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1573750062 d:\projects_2\project monster\project monster__\sources\game\models.hpp
+	<algorithm>
+	"Pods.hpp"
+	"Textures.hpp"
+
+1566889612 d:\projects_2\project monster\project monster__\sources\game\pods.hpp
+	"../Common.hpp"
+	<string>
+	<vector>
+	"../Logger.hpp"
+	"../Config.hpp"
+
+1572117249 d:\projects_2\project monster\project monster__\sources\game\textures.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	<Soil2/Soil2.h>
+	"Pods.hpp"
+
+1568131096 d:\projects_2\project monster\project monster__\sources\game\trucks.hpp
+	"../Common.hpp"
+	"Pods.hpp"
+	"Models.hpp"
+	"Textures.hpp"
+
+1571787922 d:\projects_2\project monster\project monster__\sources\physics\server.hpp
+	<Ode/Ode.h>
+	<list>
+	"../Game/Terrain.hpp"
+	"Generic.hpp"
+	"Vehicle.hpp"
+	"Client.hpp"
+
+1572119169 d:\projects_2\project monster\project monster__\sources\game\terrain.hpp
+	<vector>
+	<string>
+	"Pods.hpp"
+
+1573666239 d:\projects_2\project monster\project monster__\sources\physics\generic.hpp
+	<Ode/Ode.h>
+	"Client.hpp"
+	"../Game/Models.hpp"
+
+1560100944 d:\projects_2\project monster\project monster__\sources\physics\client.hpp
+	<Ode/Ode.h>
+
+1573633615 source:d:\projects_2\project monster\project monster__\sources\engine\frustum.cpp
+	"Frustum.hpp"
+
+1568687354 d:\projects_2\project monster\project monster__\sources\engine\frustum.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	<glm.hpp>
+
+1568233450 source:d:\projects_2\project monster\project monster__\sources\engine\input.cpp
+	"Input.hpp"
+
+1585768407 source:d:\projects_2\project monster\project monster__\sources\engine\quadtree.cpp
+	"QuadTree.hpp"
+
+1572124018 d:\projects_2\project monster\project monster__\sources\engine\quadtree.hpp
+	"Frustum.hpp"
+	"../Game/Track.hpp"
+	"../Game/Terrain.hpp"
+	"../Game/Textures.hpp"
+
+1573849987 d:\projects_2\project monster\project monster__\sources\game\track.hpp
+	"../Common.hpp"
+	"Pods.hpp"
+	"Terrain.hpp"
+	"Textures.hpp"
+	"Boxes.hpp"
+	"Models.hpp"
+	"Weather.hpp"
+
+1566889612 d:\projects_2\project monster\project monster__\sources\game\boxes.hpp
+	"Pods.hpp"
+
+1572117656 d:\projects_2\project monster\project monster__\sources\game\weather.hpp
+	"Models.hpp"
+
+1586860431 source:d:\projects_2\project monster\project monster__\sources\engine\render.cpp
+	"Render.hpp"
+
+1573834737 d:\projects_2\project monster\project monster__\sources\engine\render.hpp
+	<gtc/constants.hpp>
+	<gtc/type_ptr.hpp>
+	<gtc/matrix_access.hpp>
+	"../Interface/imgui.h"
+	"../Interface/imgui_impl_glfw.h"
+	"../Interface/imgui_impl_opengl2.h"
+	"Input.hpp"
+	"QuadTree.hpp"
+	"Camera.hpp"
+	"Frustum.hpp"
+	"Timer.hpp"
+	"../Config.hpp"
+	"../Game/Track.hpp"
+	"../Game/Trucks.hpp"
+	"../Physics/Server.hpp"
+	"../Physics/Client.hpp"
+	"../Physics/Generic.hpp"
+	"../Physics/Vehicle.hpp"
+
+1573219814 d:\projects_2\project monster\project monster__\sources\interface\imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	<stdint.h>
+	"imgui_user.h"
+
+1573219814 d:\projects_2\project monster\project monster__\sources\interface\imconfig.h
+
+1573219814 d:\projects_2\project monster\project monster__\sources\interface\imgui_impl_glfw.h
+
+1573219814 d:\projects_2\project monster\project monster__\sources\interface\imgui_impl_opengl2.h
+
+1566619318 d:\projects_2\project monster\project monster__\sources\engine\timer.hpp
+	<GL/Glew.h>
+	<GLFW/Glfw3.h>
+	"../Config.hpp"
+
+1568125848 source:d:\projects_2\project monster\project monster__\sources\engine\timer.cpp
+	"Timer.hpp"
+
+1566889612 source:d:\projects_2\project monster\project monster__\sources\game\boxes.cpp
+	"Boxes.hpp"
+
+1573771326 source:d:\projects_2\project monster\project monster__\sources\game\models.cpp
+	"Models.hpp"
+
+1572010965 source:d:\projects_2\project monster\project monster__\sources\game\pods.cpp
+	"Pods.hpp"
+
+1573488807 source:d:\projects_2\project monster\project monster__\sources\game\terrain.cpp
+	"Terrain.hpp"
+
+1572117167 source:d:\projects_2\project monster\project monster__\sources\game\textures.cpp
+	"Textures.hpp"
+
+1573849987 source:d:\projects_2\project monster\project monster__\sources\game\track.cpp
+	"Track.hpp"
+
+1566138428 source:d:\projects_2\project monster\project monster__\sources\game\trucks.cpp
+	"Trucks.hpp"
+
+1573639053 source:d:\projects_2\project monster\project monster__\sources\game\weather.cpp
+	"Weather.hpp"
+
+1573219814 source:d:\projects_2\project monster\project monster__\sources\interface\imgui.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stdio.h>
+	<stddef.h>
+	<stdint.h>
+	"imstb_sprintf.h"
+	<Windows.h>
+	<windows.h>
+	<TargetConditionals.h>
+	<Carbon/Carbon.h>
+	<imm.h>
+	"imgui_user.inl"
+
+1573219814 d:\projects_2\project monster\project monster__\sources\interface\imgui_internal.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<limits.h>
+	"imstb_textedit.h"
+
+1573219814 d:\projects_2\project monster\project monster__\sources\interface\imstb_textedit.h
+	<string.h>
+
+1573219814 source:d:\projects_2\project monster\project monster__\sources\interface\imgui_draw.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdio.h>
+	<alloca.h>
+	<malloc.h>
+	<stdlib.h>
+	"imstb_rectpack.h"
+	"imstb_truetype.h"
+
+1573219814 d:\projects_2\project monster\project monster__\sources\interface\imstb_rectpack.h
+	<stdlib.h>
+	<assert.h>
+
+1573219814 d:\projects_2\project monster\project monster__\sources\interface\imstb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1573219814 source:d:\projects_2\project monster\project monster__\sources\interface\imgui_impl_glfw.cpp
+	"imgui.h"
+	"imgui_impl_glfw.h"
+	<GLFW/glfw3.h>
+	<GLFW/glfw3native.h>
+
+1573219814 source:d:\projects_2\project monster\project monster__\sources\interface\imgui_impl_opengl2.cpp
+	"imgui.h"
+	"imgui_impl_opengl2.h"
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+
+1573219814 source:d:\projects_2\project monster\project monster__\sources\interface\imgui_widgets.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<ctype.h>
+	<stddef.h>
+	<stdint.h>
+	"imstb_textedit.h"
+
+1560597000 source:d:\projects_2\project monster\project monster__\sources\logger.cpp
+	"Logger.hpp"
+
+1573632713 source:d:\projects_2\project monster\project monster__\sources\main.cpp
+	<GL/Glew.h>
+	"Config.hpp"
+	"Engine/Render.hpp"
+	"Engine/Timer.hpp"
+	"Engine/Input.hpp"
+	"Physics/Server.hpp"
+
+1560597000 source:d:\projects_2\project monster\project monster__\sources\physics\client.cpp
+	"Client.hpp"
+
+1573856856 source:d:\projects_2\project monster\project monster__\sources\physics\generic.cpp
+	"Generic.hpp"
+
+1586862204 source:d:\projects_2\project monster\project monster__\sources\physics\server.cpp
+	"Server.hpp"
+
+1586863673 source:d:\projects_2\project monster\project monster__\sources\physics\vehicle.cpp
+	"Vehicle.hpp"
+
+1573853070 source:d:\projects_2\project monster\project monster__\sources\resources.rc
+	<windows.h>
+

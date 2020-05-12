@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Project Monster" />
+		<Option platforms="Windows;" />
+		<Option pch_mode="2" />
+		<Option default_target="Debug x86" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Sources\;" />
+		<Build>
+			<Target title="Debug x86">
+				<Option platforms="Windows;" />
+				<Option output="Project Monster_x86D" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="./" />
+				<Option object_output="Binary/Debug/Obj32/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++1z" />
+					<Add option="-m32" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG32" />
+					<Add directory="../../Dependencies/glew-2.1.0/include" />
+					<Add directory="../../Dependencies/glfw-3.3.1.bin.WIN32/include" />
+					<Add directory="../../Dependencies/glm/glm" />
+					<Add directory="../../Dependencies/soil2/src" />
+					<Add directory="../../Dependencies/ode-0.16/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-static-libstdc++" />
+					<Add option="-static-libgcc" />
+					<Add option="-static" />
+					<Add option="-m32" />
+					<Add library="libglew_static32" />
+					<Add library="libglfw3" />
+					<Add library="libsoil2-static-lib" />
+					<Add library="opengl32" />
+					<Add library="gdi32" />
+					<Add library="comdlg32" />
+					<Add library="libode_double" />
+					<Add library="version" />
+					<Add library="glu32" />
+					<Add directory="../../Dependencies/glew-2.1.0/lib/" />
+					<Add directory="../../Dependencies/glfw-3.3.1.bin.WIN32/lib-mingw" />
+					<Add directory="../../Dependencies/soil2/make/windows/.objs32" />
+					<Add directory="../../Dependencies/ode-0.16/lib/ReleaseDoubleLib" />
+				</Linker>
+			</Target>
+			<Target title="Release x86">
+				<Option platforms="Windows;" />
+				<Option output="Project Monster_x86" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="./" />
+				<Option object_output="Binary/Release/Obj32/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-std=c++1z" />
+					<Add option="-m32" />
+					<Add option="-D_RELEASE32" />
+					<Add directory="../../Dependencies/glew-2.1.0/include" />
+					<Add directory="../../Dependencies/glfw-3.3.1.bin.WIN32/include" />
+					<Add directory="../../Dependencies/glm/glm" />
+					<Add directory="../../Dependencies/soil2/src" />
+					<Add directory="../../Dependencies/ode-0.16/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-O3" />
+					<Add option="-s" />
+					<Add option="-static-libstdc++" />
+					<Add option="-static-libgcc" />
+					<Add option="-static" />
+					<Add option="-m32" />
+					<Add library="libglew_static32" />
+					<Add library="libglfw3" />
+					<Add library="libsoil2-static-lib" />
+					<Add library="opengl32" />
+					<Add library="gdi32" />
+					<Add library="comdlg32" />
+					<Add library="libode_double" />
+					<Add library="version" />
+					<Add library="glu32" />
+					<Add directory="../../Dependencies/glew-2.1.0/lib/" />
+					<Add directory="../../Dependencies/glfw-3.3.1.bin.WIN32/lib-mingw" />
+					<Add directory="../../Dependencies/soil2/make/windows/.objs32" />
+					<Add directory="../../Dependencies/ode-0.16/lib/ReleaseDoubleLib" />
+				</Linker>
+			</Target>
+			<Target title="Debug x64">
+				<Option platforms="Windows;" />
+				<Option output="Project Monster_x64D" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="./" />
+				<Option object_output="Binary/Debug/Obj64/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_x64" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-std=c++1z" />
+					<Add option="-m64" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG64" />
+					<Add directory="../../Dependencies/glew-2.1.0/include" />
+					<Add directory="../../Dependencies/glfw-3.3.1.bin.WIN32/include" />
+					<Add directory="../../Dependencies/glm/glm" />
+					<Add directory="../../Dependencies/soil2/src" />
+					<Add directory="../../Dependencies/ode-0.16/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-O3" />
+					<Add option="-static-libstdc++" />
+					<Add option="-static-libgcc" />
+					<Add option="-static" />
+					<Add option="-m64" />
+					<Add library="libglew_static64" />
+					<Add library="libglfw3" />
+					<Add library="libsoil2-static-lib" />
+					<Add library="opengl32" />
+					<Add library="gdi32" />
+					<Add library="comdlg32" />
+					<Add library="libode_double" />
+					<Add library="version" />
+					<Add library="glu32" />
+					<Add directory="../../Dependencies/glew-2.1.0/lib/" />
+					<Add directory="../../Dependencies/glfw-3.3.1.bin.WIN64/lib-mingw-w64" />
+					<Add directory="../../Dependencies/soil2/make/windows/.objs64" />
+					<Add directory="../../Dependencies/ode-0.16/lib/ReleaseDoubleLib64" />
+				</Linker>
+			</Target>
+			<Target title="Release x64">
+				<Option platforms="Windows;" />
+				<Option output="Project Monster_x64" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="./" />
+				<Option object_output="Binary/Release/Obj64/" />
+				<Option type="0" />
+				<Option compiler="gnu_gcc_compiler_x64" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-std=c++1z" />
+					<Add option="-m64" />
+					<Add option="-D_RELEASE64" />
+					<Add directory="../../Dependencies/glew-2.1.0/include" />
+					<Add directory="../../Dependencies/glfw-3.3.1.bin.WIN32/include" />
+					<Add directory="../../Dependencies/glm/glm" />
+					<Add directory="../../Dependencies/soil2/src" />
+					<Add directory="../../Dependencies/ode-0.16/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-O3" />
+					<Add option="-s" />
+					<Add option="-static-libstdc++" />
+					<Add option="-static-libgcc" />
+					<Add option="-static" />
+					<Add option="-m64" />
+					<Add library="libglew_static64" />
+					<Add library="libglfw3" />
+					<Add library="libsoil2-static-lib" />
+					<Add library="opengl32" />
+					<Add library="gdi32" />
+					<Add library="comdlg32" />
+					<Add library="libode_double" />
+					<Add library="version" />
+					<Add library="glu32" />
+					<Add directory="../../Dependencies/glew-2.1.0/lib/" />
+					<Add directory="../../Dependencies/glfw-3.3.1.bin.WIN64/lib-mingw-w64" />
+					<Add directory="../../Dependencies/soil2/make/windows/.objs64" />
+					<Add directory="../../Dependencies/ode-0.16/lib/ReleaseDoubleLib64" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All Builds" targets="Debug x86;Release x86;Debug x64;Release x64;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-Wno-deprecated-declarations -Wno-unknown-pragmas" />
+		</Compiler>
+		<Unit filename="Sources/Common.cpp" />
+		<Unit filename="Sources/Common.hpp" />
+		<Unit filename="Sources/Config.cpp" />
+		<Unit filename="Sources/Config.hpp" />
+		<Unit filename="Sources/Engine/Camera.cpp" />
+		<Unit filename="Sources/Engine/Camera.hpp" />
+		<Unit filename="Sources/Engine/Frustum.cpp" />
+		<Unit filename="Sources/Engine/Frustum.hpp" />
+		<Unit filename="Sources/Engine/Input.cpp" />
+		<Unit filename="Sources/Engine/Input.hpp" />
+		<Unit filename="Sources/Engine/QuadTree.cpp" />
+		<Unit filename="Sources/Engine/QuadTree.hpp" />
+		<Unit filename="Sources/Engine/Render.cpp" />
+		<Unit filename="Sources/Engine/Render.hpp" />
+		<Unit filename="Sources/Engine/Timer.cpp" />
+		<Unit filename="Sources/Engine/Timer.hpp" />
+		<Unit filename="Sources/Game/Boxes.cpp" />
+		<Unit filename="Sources/Game/Boxes.hpp" />
+		<Unit filename="Sources/Game/Models.cpp" />
+		<Unit filename="Sources/Game/Models.hpp" />
+		<Unit filename="Sources/Game/Pods.cpp" />
+		<Unit filename="Sources/Game/Pods.hpp" />
+		<Unit filename="Sources/Game/Terrain.cpp" />
+		<Unit filename="Sources/Game/Terrain.hpp" />
+		<Unit filename="Sources/Game/Textures.cpp" />
+		<Unit filename="Sources/Game/Textures.hpp" />
+		<Unit filename="Sources/Game/Track.cpp" />
+		<Unit filename="Sources/Game/Track.hpp" />
+		<Unit filename="Sources/Game/Trucks.cpp" />
+		<Unit filename="Sources/Game/Trucks.hpp" />
+		<Unit filename="Sources/Game/Weather.cpp" />
+		<Unit filename="Sources/Game/Weather.hpp" />
+		<Unit filename="Sources/Interface/imconfig.h" />
+		<Unit filename="Sources/Interface/imgui.cpp" />
+		<Unit filename="Sources/Interface/imgui.h" />
+		<Unit filename="Sources/Interface/imgui_draw.cpp" />
+		<Unit filename="Sources/Interface/imgui_impl_glfw.cpp" />
+		<Unit filename="Sources/Interface/imgui_impl_glfw.h" />
+		<Unit filename="Sources/Interface/imgui_impl_opengl2.cpp" />
+		<Unit filename="Sources/Interface/imgui_impl_opengl2.h" />
+		<Unit filename="Sources/Interface/imgui_internal.h" />
+		<Unit filename="Sources/Interface/imgui_widgets.cpp" />
+		<Unit filename="Sources/Interface/imstb_rectpack.h" />
+		<Unit filename="Sources/Interface/imstb_textedit.h" />
+		<Unit filename="Sources/Interface/imstb_truetype.h" />
+		<Unit filename="Sources/Logger.cpp" />
+		<Unit filename="Sources/Logger.hpp" />
+		<Unit filename="Sources/Main.cpp" />
+		<Unit filename="Sources/Physics/Client.cpp" />
+		<Unit filename="Sources/Physics/Client.hpp" />
+		<Unit filename="Sources/Physics/Generic.cpp" />
+		<Unit filename="Sources/Physics/Generic.hpp" />
+		<Unit filename="Sources/Physics/Server.cpp" />
+		<Unit filename="Sources/Physics/Server.hpp" />
+		<Unit filename="Sources/Physics/Vehicle.cpp" />
+		<Unit filename="Sources/Physics/Vehicle.hpp" />
+		<Unit filename="Sources/Resources.hpp" />
+		<Unit filename="Sources/Resources.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

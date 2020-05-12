@@ -1,0 +1,39 @@
+
+#include <windows.h>
+
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+GLFW_ICON          ICON           "..\\Resources\\Game\\Icon.ico"
+
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+1 VERSIONINFO
+    FILEVERSION     1,3,81,0
+    PRODUCTVERSION  1,3,81,0
+    FILEOS          VOS__WINDOWS32
+    FILETYPE        VFT_APP
+    FILESUBTYPE     VFT2_UNKNOWN
+    FILEFLAGSMASK   VS_FF_PRIVATEBUILD
+    FILEFLAGS       VS_FF_PRIVATEBUILD
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040901B5"
+        {
+            VALUE "Comments", "Project Monster"
+            VALUE "CompanyName", "Natas8"
+            VALUE "FileDescription", "Project Monster"
+            VALUE "FileVersion", "1,3,81,0"
+            VALUE "InternalName", "Project Monster"
+            VALUE "LegalCopyright", "Project Monster © 2019, Natas8"
+            VALUE "LegalTrademarks", "Natas8, Project Monster"
+            VALUE "OriginalFilename", "Project Monster"
+            VALUE "PrivateBuild", ""
+            VALUE "ProductName", "Project Monster"
+            VALUE "ProductVersion", "1,3,81,0"
+            VALUE "SpecialBuild", ""
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0409, 0x01B5
+    }
+}
